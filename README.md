@@ -1,10 +1,10 @@
 # mcsrranked
 
-mcsrranked is a Python SDK for the [MCSR Ranked API](https://mcsrranked.com/).
-
 [![PyPI version](https://badge.fury.io/py/mcsrranked.svg)](https://badge.fury.io/py/mcsrranked)
 [![Python 3.11+](https://img.shields.io/badge/python-3.11+-blue.svg)](https://www.python.org/downloads/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
+mcsrranked is a Python SDK for the [MCSR Ranked API](https://mcsrranked.com/).
 
 ## Installation
 
