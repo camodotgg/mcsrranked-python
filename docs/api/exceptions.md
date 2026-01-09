@@ -10,17 +10,51 @@ MCSRRankedError
 │   │   ├── AuthenticationError
 │   │   ├── NotFoundError
 │   │   └── RateLimitError
-│   ├── APIConnectionError
-│   └── APITimeoutError
+│   └── APIConnectionError
+│       └── APITimeoutError
 ```
 
 ---
 
 ## Base Exceptions
 
-### MCSRRankedError
+::: mcsrranked.MCSRRankedError
+    options:
+      show_docstring_attributes: true
 
-Base exception for all SDK errors.
+::: mcsrranked.APIError
+    options:
+      show_docstring_attributes: true
+
+---
+
+## HTTP Status Exceptions
+
+::: mcsrranked.APIStatusError
+    options:
+      show_docstring_attributes: true
+
+::: mcsrranked.BadRequestError
+
+::: mcsrranked.AuthenticationError
+
+::: mcsrranked.NotFoundError
+
+::: mcsrranked.RateLimitError
+
+---
+
+## Connection Exceptions
+
+::: mcsrranked.APIConnectionError
+
+::: mcsrranked.APITimeoutError
+
+---
+
+## Usage Examples
+
+### Catching all SDK errors
 
 ```python
 from mcsrranked import MCSRRankedError
@@ -31,130 +65,28 @@ except MCSRRankedError as e:
     print(f"SDK error: {e}")
 ```
 
-### APIError
-
-Base exception for API-related errors.
-
-| Attribute | Type | Description |
-|-----------|------|-------------|
-| `message` | `str` | Error message |
-
----
-
-## HTTP Status Exceptions
-
-### APIStatusError
-
-Exception for HTTP error responses.
-
-| Attribute | Type | Description |
-|-----------|------|-------------|
-| `message` | `str` | Error message |
-| `status_code` | `int` | HTTP status code |
-| `response` | `httpx.Response` | Raw response object |
-| `body` | `object \| None` | Response body |
-
-### BadRequestError
-
-Raised for HTTP 400 responses (invalid parameters).
+### Catching specific errors
 
 ```python
-from mcsrranked import BadRequestError
-
-try:
-    matches = mcsrranked.matches.list(count=1000)
-except BadRequestError as e:
-    print(f"Status: {e.status_code}")  # 400
-    print(f"Message: {e.message}")
-```
-
-### AuthenticationError
-
-Raised for HTTP 401 responses (invalid credentials).
-
-```python
-from mcsrranked import AuthenticationError
-
-try:
-    live = mcsrranked.users.live("uuid")
-except AuthenticationError as e:
-    print(f"Status: {e.status_code}")  # 401
-```
-
-### NotFoundError
-
-Raised for HTTP 404 responses (resource not found).
-
-```python
-from mcsrranked import NotFoundError
+from mcsrranked import NotFoundError, RateLimitError
 
 try:
     user = mcsrranked.users.get("nonexistent")
 except NotFoundError as e:
-    print(f"Status: {e.status_code}")  # 404
-```
-
-### RateLimitError
-
-Raised for HTTP 429 responses (too many requests).
-
-```python
-from mcsrranked import RateLimitError
-
-try:
-    # Too many requests
-    for i in range(1000):
-        mcsrranked.users.get("Feinberg")
+    print(f"User not found: {e.status_code}")
 except RateLimitError as e:
-    print(f"Status: {e.status_code}")  # 429
+    print(f"Rate limited: {e.status_code}")
 ```
 
----
-
-## Connection Exceptions
-
-### APIConnectionError
-
-Raised for network-related errors.
+### Accessing error details
 
 ```python
-from mcsrranked import APIConnectionError
+from mcsrranked import APIStatusError
 
 try:
-    user = mcsrranked.users.get("Feinberg")
-except APIConnectionError as e:
-    print(f"Connection failed: {e.message}")
-```
-
-### APITimeoutError
-
-Raised when a request times out. Inherits from `APIConnectionError`.
-
-```python
-from mcsrranked import APITimeoutError, MCSRRanked
-
-client = MCSRRanked(timeout=1.0)
-
-try:
-    user = client.users.get("Feinberg")
-except APITimeoutError as e:
-    print(f"Request timed out: {e.message}")
-```
-
----
-
-## Import All Exceptions
-
-```python
-from mcsrranked import (
-    MCSRRankedError,
-    APIError,
-    APIStatusError,
-    APIConnectionError,
-    APITimeoutError,
-    BadRequestError,
-    AuthenticationError,
-    NotFoundError,
-    RateLimitError,
-)
+    user = mcsrranked.users.get("invalid")
+except APIStatusError as e:
+    print(f"Status: {e.status_code}")
+    print(f"Message: {e.message}")
+    print(f"Body: {e.body}")
 ```

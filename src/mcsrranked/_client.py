@@ -15,24 +15,7 @@ __all__ = ["MCSRRanked", "AsyncMCSRRanked"]
 
 
 class MCSRRanked:
-    """Synchronous client for the MCSR Ranked API.
-
-    Usage:
-        >>> client = MCSRRanked()
-        >>> user = client.users.get("Couriway")
-        >>> print(user.nickname, user.elo_rate)
-
-        >>> # With context manager
-        >>> with MCSRRanked() as client:
-        ...     matches = client.matches.list()
-
-        >>> # With API key for expanded rate limits
-        >>> client = MCSRRanked(api_key="your-key")
-
-        >>> # With private key for live data
-        >>> client = MCSRRanked(private_key="your-private-key")
-        >>> live = client.users.live("player")
-    """
+    """Synchronous client for the MCSR Ranked API."""
 
     def __init__(
         self,
@@ -136,17 +119,7 @@ class MCSRRanked:
 
 
 class AsyncMCSRRanked:
-    """Asynchronous client for the MCSR Ranked API.
-
-    Usage:
-        >>> async with AsyncMCSRRanked() as client:
-        ...     user = await client.users.get("Couriway")
-        ...     print(user.nickname, user.elo_rate)
-
-        >>> # With API key for expanded rate limits
-        >>> async with AsyncMCSRRanked(api_key="your-key") as client:
-        ...     matches = await client.matches.list()
-    """
+    """Asynchronous client for the MCSR Ranked API."""
 
     def __init__(
         self,

@@ -1,214 +1,105 @@
 # Types Reference
 
-All API responses are parsed into Pydantic models with full type hints.
-
 ## Enums
 
-### MatchType
+::: mcsrranked.MatchType
 
-```python
-from mcsrranked import MatchType
+::: mcsrranked.SortOrder
 
-MatchType.CASUAL   # 1
-MatchType.RANKED   # 2
-MatchType.PRIVATE  # 3
-MatchType.EVENT    # 4
-```
+---
 
-### SortOrder
+## Shared Types
 
-```python
-from mcsrranked import SortOrder
+::: mcsrranked.types.shared.UserProfile
 
-# Type alias for: Literal["newest", "oldest", "fastest", "slowest"]
-```
+::: mcsrranked.types.shared.Achievement
+
+::: mcsrranked.types.shared.MatchSeed
+
+::: mcsrranked.types.shared.EloChange
+
+::: mcsrranked.types.shared.VodInfo
 
 ---
 
 ## User Types
 
-### User
+::: mcsrranked.types.user.User
 
-Full user profile data.
+::: mcsrranked.types.user.UserStatistics
 
-| Field | Type | Description |
-|-------|------|-------------|
-| `uuid` | `str` | UUID without dashes |
-| `nickname` | `str` | Display name |
-| `elo_rate` | `int \| None` | Current elo rating |
-| `elo_rank` | `int \| None` | Current rank |
-| `country` | `str \| None` | Country code (ISO 3166-1 alpha-2) |
-| `role_type` | `int` | User role type |
-| `achievements` | `AchievementsContainer` | User achievements |
-| `timestamp` | `UserTimestamps \| None` | Activity timestamps |
-| `statistics` | `UserStatistics` | Season and total stats |
-| `connections` | `UserConnections` | Third-party connections |
-| `season_result` | `SeasonResult \| None` | Current season data |
-| `weekly_races` | `list[WeeklyRaceResult]` | Weekly race results |
+::: mcsrranked.types.user.MatchTypeStats
 
-### UserProfile
+::: mcsrranked.types.user.UserTimestamps
 
-Basic user profile (used in matches, leaderboards).
+::: mcsrranked.types.user.SeasonResult
 
-| Field | Type | Description |
-|-------|------|-------------|
-| `uuid` | `str` | UUID without dashes |
-| `nickname` | `str` | Display name |
-| `elo_rate` | `int \| None` | Elo rating |
-| `elo_rank` | `int \| None` | Rank |
-| `country` | `str \| None` | Country code |
-| `role_type` | `int` | Role type |
+::: mcsrranked.types.user.PhaseResult
 
-### UserStatistics
+::: mcsrranked.types.user.Connection
 
-| Field | Type |
-|-------|------|
-| `season` | `SeasonStats` |
-| `total` | `TotalStats` |
+::: mcsrranked.types.user.UserConnections
 
-### MatchTypeStats
+::: mcsrranked.types.user.WeeklyRaceResult
 
-Statistics for ranked/casual matches.
-
-| Field | Type |
-|-------|------|
-| `played_matches` | `int` |
-| `wins` | `int` |
-| `losses` | `int` |
-| `draws` | `int` |
-| `forfeits` | `int` |
-| `highest_winstreak` | `int` |
-| `current_winstreak` | `int` |
-| `playtime` | `int` |
-| `best_time` | `int \| None` |
-| `best_time_id` | `int \| None` |
-| `completions` | `int` |
+::: mcsrranked.types.user.UserSeasons
 
 ---
 
 ## Match Types
 
-### MatchInfo
+::: mcsrranked.types.match.MatchInfo
 
-| Field | Type | Description |
-|-------|------|-------------|
-| `id` | `int` | Match ID |
-| `type` | `int` | Match type (1-4) |
-| `season` | `int` | Season number |
-| `category` | `str \| None` | Completion category |
-| `date` | `int` | Unix timestamp (seconds) |
-| `players` | `list[UserProfile]` | Match players |
-| `spectators` | `list[UserProfile]` | Match spectators |
-| `seed` | `MatchSeed \| None` | Seed information |
-| `result` | `MatchResult \| None` | Match result |
-| `forfeited` | `bool` | No completions |
-| `decayed` | `bool` | Decayed match |
-| `rank` | `MatchRank \| None` | Record ranking |
-| `changes` | `list[EloChange]` | Elo changes |
-| `tag` | `str \| None` | Special tag |
-| `beginner` | `bool` | Beginner mode |
-| `vod` | `list[VodInfo]` | VOD information |
-| `completions` | `list[Completion]` | (Advanced) Completions |
-| `timelines` | `list[Timeline]` | (Advanced) Timeline events |
-| `replay_exist` | `bool` | (Advanced) Replay available |
+::: mcsrranked.types.match.MatchResult
 
-### MatchSeed
+::: mcsrranked.types.match.MatchRank
 
-| Field | Type |
-|-------|------|
-| `id` | `str \| None` |
-| `overworld` | `str \| None` |
-| `bastion` | `str \| None` |
-| `end_towers` | `list[int]` |
-| `variations` | `list[str]` |
+::: mcsrranked.types.match.Timeline
 
-### MatchResult
+::: mcsrranked.types.match.Completion
 
-| Field | Type |
-|-------|------|
-| `uuid` | `str \| None` |
-| `time` | `int` |
+::: mcsrranked.types.match.VersusStats
 
-### Timeline
-
-| Field | Type |
-|-------|------|
-| `uuid` | `str` |
-| `time` | `int` |
-| `type` | `str` |
+::: mcsrranked.types.match.VersusResults
 
 ---
 
 ## Leaderboard Types
 
-### EloLeaderboard
+::: mcsrranked.types.leaderboard.EloLeaderboard
 
-| Field | Type |
-|-------|------|
-| `season` | `SeasonInfo` |
-| `users` | `list[LeaderboardUser]` |
+::: mcsrranked.types.leaderboard.SeasonInfo
 
-### PhaseLeaderboard
+::: mcsrranked.types.leaderboard.LeaderboardUser
 
-| Field | Type |
-|-------|------|
-| `phase` | `PhaseInfo` |
-| `users` | `list[PhaseLeaderboardUser]` |
+::: mcsrranked.types.leaderboard.PhaseLeaderboard
 
-### RecordEntry
+::: mcsrranked.types.leaderboard.PhaseInfo
 
-| Field | Type |
-|-------|------|
-| `rank` | `int` |
-| `season` | `int` |
-| `date` | `int` |
-| `id` | `int` |
-| `time` | `int` |
-| `user` | `UserProfile` |
-| `seed` | `MatchSeed \| None` |
+::: mcsrranked.types.leaderboard.PhaseLeaderboardUser
+
+::: mcsrranked.types.leaderboard.RecordEntry
 
 ---
 
 ## Live Types
 
-### LiveData
+::: mcsrranked.types.live.LiveData
 
-| Field | Type |
-|-------|------|
-| `players` | `int` |
-| `live_matches` | `list[LiveMatch]` |
+::: mcsrranked.types.live.LiveMatch
 
-### UserLiveMatch
+::: mcsrranked.types.live.LiveMatchPlayer
 
-| Field | Type |
-|-------|------|
-| `last_id` | `int \| None` |
-| `type` | `int` |
-| `status` | `str` |
-| `time` | `int` |
-| `players` | `list[UserProfile]` |
-| `spectators` | `list[UserProfile]` |
-| `timelines` | `list[Timeline]` |
-| `completions` | `list[Completion]` |
+::: mcsrranked.types.live.LivePlayerTimeline
+
+::: mcsrranked.types.live.UserLiveMatch
 
 ---
 
 ## Weekly Race Types
 
-### WeeklyRace
+::: mcsrranked.types.weekly_race.WeeklyRace
 
-| Field | Type |
-|-------|------|
-| `id` | `int` |
-| `seed` | `WeeklyRaceSeed` |
-| `ends_at` | `int` |
-| `leaderboard` | `list[RaceLeaderboardEntry]` |
+::: mcsrranked.types.weekly_race.WeeklyRaceSeed
 
-### RaceLeaderboardEntry
-
-| Field | Type |
-|-------|------|
-| `rank` | `int` |
-| `player` | `UserProfile` |
-| `time` | `int` |
-| `replay_exist` | `bool` |
+::: mcsrranked.types.weekly_race.RaceLeaderboardEntry
