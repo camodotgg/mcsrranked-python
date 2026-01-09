@@ -1,0 +1,36 @@
+{
+  "players": [
+    {
+      "uuid": "994f93763f8048bc9e72ee92f861911d",
+      "nickname": "Couriway",
+      "roleType": 3,
+      "eloRate": null,
+      "eloRank": null,
+      "country": null
+    },
+    {
+      "uuid": "9a8e24df4c8549d696a6951da84fa5c4",
+      "nickname": "Feinberg",
+      "roleType": 3,
+      "eloRate": 2100,
+      "eloRank": 2,
+      "country": "us"
+    }
+  ],
+  "results": {
+    "ranked": {
+      "total": 0,
+      "994f93763f8048bc9e72ee92f861911d": 0,
+      "9a8e24df4c8549d696a6951da84fa5c4": 0
+    },
+    "casual": {
+      "total": 0,
+      "994f93763f8048bc9e72ee92f861911d": 0,
+      "9a8e24df4c8549d696a6951da84fa5c4": 0
+    }
+  },
+  "changes": {
+    "994f93763f8048bc9e72ee92f861911d": 0,
+    "9a8e24df4c8549d696a6951da84fa5c4": 0
+  }
+}

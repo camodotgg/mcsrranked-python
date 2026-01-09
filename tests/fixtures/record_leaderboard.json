@@ -1,0 +1,3631 @@
+[
+  {
+    "rank": 1,
+    "id": 3489002,
+    "season": 9,
+    "date": 1761876457,
+    "time": 347271,
+    "user": {
+      "uuid": "a54e3bc4c6354b07a236b81efbcfe791",
+      "nickname": "Infume",
+      "roleType": 2,
+      "eloRate": 2152,
+      "eloRank": 1,
+      "country": "us"
+    },
+    "seed": {
+      "id": "m72326d0x51kz9m0",
+      "overworld": "RUINED_PORTAL",
+      "nether": "HOUSING",
+      "endTowers": [
+        94,
+        82,
+        85,
+        79
+      ],
+      "variations": [
+        "type:structure:lava",
+        "chest:structure:looting_sword",
+        "biome:structure:beach",
+        "type:structure:lava",
+        "chest:structure:looting_sword",
+        "biome:structure:beach",
+        "bastion:triple:2",
+        "biome:bastion:soul_sand_valley",
+        "biome:fortress:soul_sand_valley",
+        "end_spawn:buried:57",
+        "end_tower:caged:front_center",
+        "end_tower:caged:back_center"
+      ]
+    }
+  },
+  {
+    "rank": 2,
+    "id": 2199947,
+    "season": 8,
+    "date": 1748204915,
+    "time": 364035,
+    "user": {
+      "uuid": "5fe66e8b389f4dc384222e8cc09485f0",
+      "nickname": "sanjinhu",
+      "roleType": 0,
+      "eloRate": 1742,
+      "eloRank": 29,
+      "country": "br"
+    },
+    "seed": {
+      "id": "m72394zfrilfvz41",
+      "overworld": "RUINED_PORTAL",
+      "nether": "BRIDGE",
+      "endTowers": [
+        88,
+        94,
+        82,
+        85
+      ],
+      "variations": [
+        "type:structure:completable",
+        "chest:structure:looting_sword",
+        "biome:structure:forest",
+        "type:structure:completable",
+        "chest:structure:looting_sword",
+        "biome:structure:forest",
+        "bastion:triple:1",
+        "bastion:single:1",
+        "biome:bastion:nether_wastes",
+        "biome:fortress:warped_forest",
+        "end_spawn:buried:46",
+        "end_tower:caged:back"
+      ]
+    }
+  },
+  {
+    "rank": 3,
+    "id": 2972056,
+    "season": 9,
+    "date": 1757378341,
+    "time": 366383,
+    "user": {
+      "uuid": "3b01d4b4fef14f178b75f05c04dd34ef",
+      "nickname": "BeefSalad",
+      "roleType": 3,
+      "eloRate": 1952,
+      "eloRank": 7,
+      "country": "gb"
+    },
+    "seed": {
+      "id": "m722umm3426eg11m",
+      "overworld": "RUINED_PORTAL",
+      "nether": "HOUSING",
+      "endTowers": [
+        79,
+        85,
+        100,
+        82
+      ],
+      "variations": [
+        "type:structure:completable",
+        "chest:structure:looting_sword",
+        "biome:structure:plains",
+        "type:structure:completable",
+        "chest:structure:looting_sword",
+        "biome:structure:plains",
+        "bastion:triple:1",
+        "biome:bastion:nether_wastes",
+        "biome:fortress:soul_sand_valley",
+        "end_tower:caged:front",
+        "end_tower:caged:back_center"
+      ]
+    }
+  },
+  {
+    "rank": 4,
+    "id": 3943440,
+    "season": 9,
+    "date": 1764911051,
+    "time": 368016,
+    "user": {
+      "uuid": "a54e3bc4c6354b07a236b81efbcfe791",
+      "nickname": "Infume",
+      "roleType": 2,
+      "eloRate": 2152,
+      "eloRank": 1,
+      "country": "us"
+    },
+    "seed": {
+      "id": "m722w4rb1k6w2dj4",
+      "overworld": "RUINED_PORTAL",
+      "nether": "TREASURE",
+      "endTowers": [
+        97,
+        88,
+        82,
+        76
+      ],
+      "variations": [
+        "type:structure:lava",
+        "chest:structure:egap",
+        "biome:structure:forest",
+        "type:structure:lava",
+        "chest:structure:egap",
+        "biome:structure:forest",
+        "biome:bastion:nether_wastes",
+        "biome:fortress:nether_wastes",
+        "end_spawn:buried:57",
+        "end_tower:caged:back"
+      ]
+    }
+  },
+  {
+    "rank": 5,
+    "id": 3732338,
+    "season": 9,
+    "date": 1763537785,
+    "time": 372000,
+    "user": {
+      "uuid": "4aed1e5e8f5c44e2bc0666e0c03781af",
+      "nickname": "nEmerald",
+      "roleType": 2,
+      "eloRate": 1697,
+      "eloRank": 38,
+      "country": "us"
+    },
+    "seed": {
+      "id": "m722x08fooa45q9h",
+      "overworld": "RUINED_PORTAL",
+      "nether": "TREASURE",
+      "endTowers": [
+        94,
+        97,
+        88,
+        103
+      ],
+      "variations": [
+        "type:structure:completable",
+        "chest:structure:looting_sword",
+        "biome:structure:forest",
+        "type:structure:completable",
+        "chest:structure:looting_sword",
+        "biome:structure:forest",
+        "biome:bastion:soul_sand_valley",
+        "biome:fortress:soul_sand_valley"
+      ]
+    }
+  },
+  {
+    "rank": 6,
+    "id": 4767048,
+    "season": 10,
+    "date": 1767824990,
+    "time": 374013,
+    "user": {
+      "uuid": "3b01d4b4fef14f178b75f05c04dd34ef",
+      "nickname": "BeefSalad",
+      "roleType": 3,
+      "eloRate": 1952,
+      "eloRank": 7,
+      "country": "gb"
+    },
+    "seed": {
+      "id": "m723629wmniu69ib",
+      "overworld": "RUINED_PORTAL",
+      "nether": "HOUSING",
+      "endTowers": [
+        97,
+        85,
+        103,
+        100
+      ],
+      "variations": [
+        "type:structure:completable",
+        "chest:structure:looting_sword",
+        "biome:structure:plains",
+        "type:structure:completable",
+        "chest:structure:looting_sword",
+        "biome:structure:plains",
+        "bastion:triple:1",
+        "bastion:single:1",
+        "biome:bastion:nether_wastes",
+        "biome:fortress:nether_wastes",
+        "end_spawn:buried:53"
+      ]
+    }
+  },
+  {
+    "rank": 7,
+    "id": 3115565,
+    "season": 9,
+    "date": 1758766011,
+    "time": 374515,
+    "user": {
+      "uuid": "3b01d4b4fef14f178b75f05c04dd34ef",
+      "nickname": "BeefSalad",
+      "roleType": 3,
+      "eloRate": 1952,
+      "eloRank": 7,
+      "country": "gb"
+    },
+    "seed": {
+      "id": "m722ukgh6gduv8ix",
+      "overworld": "RUINED_PORTAL",
+      "nether": "BRIDGE",
+      "endTowers": [
+        100,
+        79,
+        88,
+        76
+      ],
+      "variations": [
+        "type:structure:lava",
+        "chest:structure:golden_carrot",
+        "chest:structure:looting_sword",
+        "biome:structure:beach",
+        "type:structure:lava",
+        "chest:structure:golden_carrot",
+        "chest:structure:looting_sword",
+        "biome:structure:beach",
+        "bastion:triple:2",
+        "biome:bastion:crimson_forest",
+        "biome:fortress:crimson_forest",
+        "end_tower:caged:front_center"
+      ]
+    }
+  },
+  {
+    "rank": 8,
+    "id": 2802817,
+    "season": 8,
+    "date": 1755728224,
+    "time": 378719,
+    "user": {
+      "uuid": "2fe70934e7be458dba747c4ac830391c",
+      "nickname": "nhb_",
+      "roleType": 2,
+      "eloRate": 1591,
+      "eloRank": 113,
+      "country": "cf"
+    },
+    "seed": {
+      "id": "m723cd31mkynwrja",
+      "overworld": "RUINED_PORTAL",
+      "nether": "HOUSING",
+      "endTowers": [
+        97,
+        100,
+        79,
+        76
+      ],
+      "variations": [
+        "type:structure:lava",
+        "chest:structure:golden_carrot",
+        "biome:structure:forest",
+        "type:structure:lava",
+        "chest:structure:golden_carrot",
+        "biome:structure:forest",
+        "bastion:triple:2",
+        "biome:bastion:nether_wastes",
+        "biome:fortress:warped_forest",
+        "end_tower:caged:back"
+      ]
+    }
+  },
+  {
+    "rank": 9,
+    "id": 4517032,
+    "season": 9,
+    "date": 1767235809,
+    "time": 378784,
+    "user": {
+      "uuid": "388533d5a2ad4b349a31db4738670a4b",
+      "nickname": "v_strid",
+      "roleType": 1,
+      "eloRate": 1798,
+      "eloRank": 17,
+      "country": "se"
+    },
+    "seed": {
+      "id": "m723c41r5406zjdq",
+      "overworld": "RUINED_PORTAL",
+      "nether": "HOUSING",
+      "endTowers": [
+        88,
+        91,
+        79,
+        76
+      ],
+      "variations": [
+        "type:structure:completable",
+        "chest:structure:golden_carrot",
+        "chest:structure:looting_sword",
+        "biome:structure:sunflower_plains",
+        "type:structure:completable",
+        "chest:structure:golden_carrot",
+        "chest:structure:looting_sword",
+        "biome:structure:sunflower_plains",
+        "bastion:triple:1",
+        "bastion:single:1",
+        "biome:bastion:nether_wastes",
+        "biome:fortress:crimson_forest",
+        "end_spawn:buried:57",
+        "end_tower:caged:back"
+      ]
+    }
+  },
+  {
+    "rank": 10,
+    "id": 4529472,
+    "season": 9,
+    "date": 1767276233,
+    "time": 378785,
+    "user": {
+      "uuid": "ac601ce7376f49cea7ce14cd577dac85",
+      "nickname": "BlazeMind",
+      "roleType": 3,
+      "eloRate": 2061,
+      "eloRank": 4,
+      "country": "au"
+    },
+    "seed": {
+      "id": "m7236ytzhq1hpju6",
+      "overworld": "RUINED_PORTAL",
+      "nether": "TREASURE",
+      "endTowers": [
+        85,
+        94,
+        91,
+        97
+      ],
+      "variations": [
+        "type:structure:lava",
+        "chest:structure:egap",
+        "biome:structure:plains",
+        "type:structure:lava",
+        "chest:structure:egap",
+        "biome:structure:plains",
+        "biome:bastion:crimson_forest",
+        "biome:fortress:crimson_forest"
+      ]
+    }
+  },
+  {
+    "rank": 11,
+    "id": 2171858,
+    "season": 8,
+    "date": 1747854149,
+    "time": 379005,
+    "user": {
+      "uuid": "3b01d4b4fef14f178b75f05c04dd34ef",
+      "nickname": "BeefSalad",
+      "roleType": 3,
+      "eloRate": 1952,
+      "eloRank": 7,
+      "country": "gb"
+    },
+    "seed": {
+      "id": "m72360r8a456evcs",
+      "overworld": "RUINED_PORTAL",
+      "nether": "TREASURE",
+      "endTowers": [
+        97,
+        100,
+        88,
+        103
+      ],
+      "variations": [
+        "type:structure:completable",
+        "chest:structure:golden_carrot",
+        "biome:structure:forest",
+        "type:structure:completable",
+        "chest:structure:golden_carrot",
+        "biome:structure:forest",
+        "biome:bastion:nether_wastes",
+        "biome:fortress:nether_wastes"
+      ]
+    }
+  },
+  {
+    "rank": 12,
+    "id": 2353416,
+    "season": 8,
+    "date": 1750191025,
+    "time": 379698,
+    "user": {
+      "uuid": "048de51800794a208de7f01652513c32",
+      "nickname": "q3awreh4yu78i",
+      "roleType": 1,
+      "eloRate": 1572,
+      "eloRank": 136,
+      "country": "cw"
+    },
+    "seed": {
+      "id": "m722swow8qs9rnxy",
+      "overworld": "RUINED_PORTAL",
+      "nether": "HOUSING",
+      "endTowers": [
+        100,
+        94,
+        91,
+        76
+      ],
+      "variations": [
+        "type:structure:lava",
+        "chest:structure:golden_carrot",
+        "chest:structure:looting_sword",
+        "biome:structure:plains",
+        "type:structure:lava",
+        "chest:structure:golden_carrot",
+        "chest:structure:looting_sword",
+        "biome:structure:plains",
+        "bastion:triple:1",
+        "biome:bastion:nether_wastes",
+        "biome:fortress:soul_sand_valley"
+      ]
+    }
+  },
+  {
+    "rank": 13,
+    "id": 652059,
+    "season": 3,
+    "date": 1703187393,
+    "time": 380341,
+    "user": {
+      "uuid": "7665f76f431b41c6b321bea16aff913b",
+      "nickname": "lowk3y_",
+      "roleType": 3,
+      "eloRate": 1777,
+      "eloRank": 20,
+      "country": null
+    },
+    "seed": {
+      "id": null,
+      "overworld": "RUINED_PORTAL",
+      "nether": null,
+      "endTowers": null,
+      "variations": []
+    }
+  },
+  {
+    "rank": 14,
+    "id": 2994579,
+    "season": 9,
+    "date": 1757621302,
+    "time": 383814,
+    "user": {
+      "uuid": "0b164a03002048d3955715422179eedf",
+      "nickname": "KenanKardes",
+      "roleType": 0,
+      "eloRate": 1802,
+      "eloRank": 16,
+      "country": "az"
+    },
+    "seed": {
+      "id": "m7235ttwlgwnobqc",
+      "overworld": "VILLAGE",
+      "nether": "HOUSING",
+      "endTowers": [
+        94,
+        103,
+        76,
+        79
+      ],
+      "variations": [
+        "chest:structure:obsidian",
+        "biome:structure:plains",
+        "chest:structure:obsidian",
+        "biome:structure:plains",
+        "bastion:triple:2",
+        "biome:bastion:soul_sand_valley",
+        "biome:fortress:nether_wastes",
+        "end_tower:caged:back_center"
+      ]
+    }
+  },
+  {
+    "rank": 15,
+    "id": 3741278,
+    "season": 9,
+    "date": 1763602665,
+    "time": 383821,
+    "user": {
+      "uuid": "a54e3bc4c6354b07a236b81efbcfe791",
+      "nickname": "Infume",
+      "roleType": 2,
+      "eloRate": 2152,
+      "eloRank": 1,
+      "country": "us"
+    },
+    "seed": {
+      "id": "m72398ug6odia06f",
+      "overworld": "RUINED_PORTAL",
+      "nether": "BRIDGE",
+      "endTowers": [
+        79,
+        88,
+        82,
+        91
+      ],
+      "variations": [
+        "type:structure:completable",
+        "chest:structure:egap",
+        "chest:structure:looting_sword",
+        "biome:structure:plains",
+        "type:structure:completable",
+        "chest:structure:egap",
+        "chest:structure:looting_sword",
+        "biome:structure:plains",
+        "bastion:single:2",
+        "biome:bastion:nether_wastes",
+        "biome:fortress:basalt_deltas",
+        "end_spawn:buried:50",
+        "end_tower:caged:front",
+        "end_tower:caged:back"
+      ]
+    }
+  },
+  {
+    "rank": 16,
+    "id": 3035422,
+    "season": 9,
+    "date": 1758037321,
+    "time": 384643,
+    "user": {
+      "uuid": "cc432b2626a44ae1836a50244adbf468",
+      "nickname": "XSpocony_MaciekX",
+      "roleType": 1,
+      "eloRate": 1981,
+      "eloRank": 6,
+      "country": "pl"
+    },
+    "seed": {
+      "id": "m722x0q2kii2y0gy",
+      "overworld": "RUINED_PORTAL",
+      "nether": "BRIDGE",
+      "endTowers": [
+        82,
+        97,
+        85,
+        88
+      ],
+      "variations": [
+        "type:structure:lava",
+        "chest:structure:looting_sword",
+        "biome:structure:forest",
+        "type:structure:lava",
+        "chest:structure:looting_sword",
+        "biome:structure:forest",
+        "bastion:triple:1",
+        "bastion:single:1",
+        "biome:bastion:crimson_forest",
+        "biome:fortress:crimson_forest",
+        "end_spawn:buried:50",
+        "end_tower:caged:front"
+      ]
+    }
+  },
+  {
+    "rank": 17,
+    "id": 2061971,
+    "season": 8,
+    "date": 1746500453,
+    "time": 386801,
+    "user": {
+      "uuid": "7665f76f431b41c6b321bea16aff913b",
+      "nickname": "lowk3y_",
+      "roleType": 3,
+      "eloRate": 1777,
+      "eloRank": 20,
+      "country": null
+    },
+    "seed": {
+      "id": "m7238ji7pf7zpmsa",
+      "overworld": "DESERT_TEMPLE",
+      "nether": "BRIDGE",
+      "endTowers": [
+        79,
+        91,
+        85,
+        100
+      ],
+      "variations": [
+        "chest:structure:egap",
+        "chest:structure:egap",
+        "bastion:triple:2",
+        "biome:bastion:nether_wastes",
+        "biome:fortress:nether_wastes",
+        "end_tower:caged:front"
+      ]
+    }
+  },
+  {
+    "rank": 18,
+    "id": 3469262,
+    "season": 9,
+    "date": 1761689007,
+    "time": 388207,
+    "user": {
+      "uuid": "253b53d832ab4bafb5ee0308d5164ccf",
+      "nickname": "Aquacorde",
+      "roleType": 3,
+      "eloRate": 1794,
+      "eloRank": 19,
+      "country": "ca"
+    },
+    "seed": {
+      "id": "m723dcm75kdd7d24",
+      "overworld": "BURIED_TREASURE",
+      "nether": "BRIDGE",
+      "endTowers": [
+        79,
+        76,
+        94,
+        91
+      ],
+      "variations": [
+        "biome:structure:deep_ocean",
+        "biome:structure:deep_ocean",
+        "bastion:triple:2",
+        "biome:bastion:soul_sand_valley",
+        "biome:fortress:basalt_deltas",
+        "end_tower:caged:front"
+      ]
+    }
+  },
+  {
+    "rank": 19,
+    "id": 4184249,
+    "season": 9,
+    "date": 1766107561,
+    "time": 389666,
+    "user": {
+      "uuid": "2ef2bfed3d084649b56290328970ace9",
+      "nickname": "nahhann",
+      "roleType": 1,
+      "eloRate": 1903,
+      "eloRank": 9,
+      "country": "us"
+    },
+    "seed": {
+      "id": "m722wqv6v6esqqh6",
+      "overworld": "RUINED_PORTAL",
+      "nether": "STABLES",
+      "endTowers": [
+        100,
+        82,
+        91,
+        94
+      ],
+      "variations": [
+        "type:structure:completable",
+        "chest:structure:egap",
+        "biome:structure:forest",
+        "type:structure:completable",
+        "chest:structure:egap",
+        "biome:structure:forest",
+        "bastion:good_gap:2",
+        "bastion:triple:2",
+        "bastion:single:1",
+        "biome:bastion:crimson_forest",
+        "biome:fortress:nether_wastes",
+        "end_tower:caged:front_center"
+      ]
+    }
+  },
+  {
+    "rank": 20,
+    "id": 4621610,
+    "season": 10,
+    "date": 1767485704,
+    "time": 389995,
+    "user": {
+      "uuid": "cc432b2626a44ae1836a50244adbf468",
+      "nickname": "XSpocony_MaciekX",
+      "roleType": 1,
+      "eloRate": 1981,
+      "eloRank": 6,
+      "country": "pl"
+    },
+    "seed": {
+      "id": "m7237qrwo0n718iu",
+      "overworld": "RUINED_PORTAL",
+      "nether": "HOUSING",
+      "endTowers": [
+        100,
+        94,
+        103,
+        97
+      ],
+      "variations": [
+        "type:structure:lava",
+        "chest:structure:golden_carrot",
+        "biome:structure:beach",
+        "type:structure:lava",
+        "chest:structure:golden_carrot",
+        "biome:structure:beach",
+        "bastion:triple:2",
+        "biome:bastion:crimson_forest",
+        "biome:fortress:crimson_forest"
+      ]
+    }
+  },
+  {
+    "rank": 21,
+    "id": 3678339,
+    "season": 9,
+    "date": 1763175151,
+    "time": 390762,
+    "user": {
+      "uuid": "25349f93cf194f3baeee93d024eccc21",
+      "nickname": "retropog",
+      "roleType": 0,
+      "eloRate": 1655,
+      "eloRank": 55,
+      "country": "au"
+    },
+    "seed": {
+      "id": "m723eaeiylogrikh",
+      "overworld": "RUINED_PORTAL",
+      "nether": "HOUSING",
+      "endTowers": [
+        79,
+        76,
+        85,
+        103
+      ],
+      "variations": [
+        "type:structure:lava",
+        "chest:structure:golden_carrot",
+        "biome:structure:plains",
+        "type:structure:lava",
+        "chest:structure:golden_carrot",
+        "biome:structure:plains",
+        "bastion:triple:2",
+        "biome:bastion:crimson_forest",
+        "biome:fortress:nether_wastes",
+        "end_tower:caged:front"
+      ]
+    }
+  },
+  {
+    "rank": 22,
+    "id": 3289525,
+    "season": 9,
+    "date": 1760219528,
+    "time": 390818,
+    "user": {
+      "uuid": "388533d5a2ad4b349a31db4738670a4b",
+      "nickname": "v_strid",
+      "roleType": 1,
+      "eloRate": 1798,
+      "eloRank": 17,
+      "country": "se"
+    },
+    "seed": {
+      "id": "m7234rbb1lp5wvfp",
+      "overworld": "RUINED_PORTAL",
+      "nether": "BRIDGE",
+      "endTowers": [
+        85,
+        100,
+        91,
+        76
+      ],
+      "variations": [
+        "type:structure:lava",
+        "chest:structure:golden_carrot",
+        "biome:structure:forest",
+        "type:structure:lava",
+        "chest:structure:golden_carrot",
+        "biome:structure:forest",
+        "bastion:triple:1",
+        "bastion:single:1",
+        "biome:bastion:nether_wastes",
+        "biome:fortress:basalt_deltas"
+      ]
+    }
+  },
+  {
+    "rank": 23,
+    "id": 4619138,
+    "season": 10,
+    "date": 1767481143,
+    "time": 390896,
+    "user": {
+      "uuid": "bc80af38933f4ae19b0494681a54422b",
+      "nickname": "Ancoboyy",
+      "roleType": 1,
+      "eloRate": 1890,
+      "eloRank": 10,
+      "country": "tr"
+    },
+    "seed": {
+      "id": "m722ypmjzadm7v93",
+      "overworld": "DESERT_TEMPLE",
+      "nether": "BRIDGE",
+      "endTowers": [
+        82,
+        103,
+        76,
+        97
+      ],
+      "variations": [
+        "chest:structure:diamond",
+        "chest:structure:diamond",
+        "bastion:triple:1",
+        "bastion:single:1",
+        "biome:bastion:nether_wastes",
+        "biome:fortress:nether_wastes",
+        "end_tower:caged:front"
+      ]
+    }
+  },
+  {
+    "rank": 24,
+    "id": 1634353,
+    "season": 7,
+    "date": 1737997449,
+    "time": 392682,
+    "user": {
+      "uuid": "dd34e44dfe5d4e05923d876b9c34ca5f",
+      "nickname": "Waluyoshi",
+      "roleType": 1,
+      "eloRate": 1684,
+      "eloRank": 42,
+      "country": "sx"
+    },
+    "seed": {
+      "id": null,
+      "overworld": "RUINED_PORTAL",
+      "nether": "TREASURE",
+      "endTowers": null,
+      "variations": []
+    }
+  },
+  {
+    "rank": 25,
+    "id": 2759694,
+    "season": 8,
+    "date": 1755305860,
+    "time": 392826,
+    "user": {
+      "uuid": "2ef2bfed3d084649b56290328970ace9",
+      "nickname": "nahhann",
+      "roleType": 1,
+      "eloRate": 1903,
+      "eloRank": 9,
+      "country": "us"
+    },
+    "seed": {
+      "id": "m7235sicxi4crv2g",
+      "overworld": "SHIPWRECK",
+      "nether": "BRIDGE",
+      "endTowers": [
+        85,
+        82,
+        94,
+        100
+      ],
+      "variations": [
+        "chest:structure:carrot",
+        "biome:structure:deep_ocean",
+        "type:structure:normal",
+        "chest:structure:carrot",
+        "biome:structure:deep_ocean",
+        "type:structure:normal",
+        "bastion:triple:1",
+        "bastion:single:1",
+        "biome:bastion:crimson_forest",
+        "biome:fortress:nether_wastes",
+        "end_tower:caged:front_center"
+      ]
+    }
+  },
+  {
+    "rank": 26,
+    "id": 4380446,
+    "season": 9,
+    "date": 1766862113,
+    "time": 393647,
+    "user": {
+      "uuid": "cc432b2626a44ae1836a50244adbf468",
+      "nickname": "XSpocony_MaciekX",
+      "roleType": 1,
+      "eloRate": 1981,
+      "eloRank": 6,
+      "country": "pl"
+    },
+    "seed": {
+      "id": "m723bfu0l0aa74qd",
+      "overworld": "RUINED_PORTAL",
+      "nether": "TREASURE",
+      "endTowers": [
+        100,
+        79,
+        88,
+        91
+      ],
+      "variations": [
+        "type:structure:completable",
+        "chest:structure:golden_carrot",
+        "biome:structure:plains",
+        "type:structure:completable",
+        "chest:structure:golden_carrot",
+        "biome:structure:plains",
+        "biome:bastion:warped_forest",
+        "biome:fortress:crimson_forest",
+        "end_tower:caged:front_center"
+      ]
+    }
+  },
+  {
+    "rank": 27,
+    "id": 4733053,
+    "season": 10,
+    "date": 1767746088,
+    "time": 394194,
+    "user": {
+      "uuid": "ba31689fe7d24431bf7997a52efcc21c",
+      "nickname": "meebie",
+      "roleType": 1,
+      "eloRate": 1852,
+      "eloRank": 12,
+      "country": "cf"
+    },
+    "seed": {
+      "id": "m723d6fex383ymb0",
+      "overworld": "RUINED_PORTAL",
+      "nether": "HOUSING",
+      "endTowers": [
+        85,
+        76,
+        100,
+        103
+      ],
+      "variations": [
+        "type:structure:completable",
+        "biome:structure:river",
+        "type:structure:completable",
+        "biome:structure:river",
+        "bastion:triple:1",
+        "biome:bastion:soul_sand_valley",
+        "biome:fortress:basalt_deltas"
+      ]
+    }
+  },
+  {
+    "rank": 28,
+    "id": 1458876,
+    "season": 6,
+    "date": 1733577948,
+    "time": 395129,
+    "user": {
+      "uuid": "7c92678742eb4e819f3122017697ae3d",
+      "nickname": "hackingnoises",
+      "roleType": 3,
+      "eloRate": null,
+      "eloRank": null,
+      "country": "hk"
+    },
+    "seed": {
+      "id": null,
+      "overworld": "BURIED_TREASURE",
+      "nether": "TREASURE",
+      "endTowers": null,
+      "variations": []
+    }
+  },
+  {
+    "rank": 29,
+    "id": 3510422,
+    "season": 9,
+    "date": 1762031983,
+    "time": 395245,
+    "user": {
+      "uuid": "4cf401d7b9474756b06a653867d22fca",
+      "nickname": "BadGamer",
+      "roleType": 1,
+      "eloRate": 1833,
+      "eloRank": 13,
+      "country": "ca"
+    },
+    "seed": {
+      "id": "m722zd58e4gizoo2",
+      "overworld": "RUINED_PORTAL",
+      "nether": "HOUSING",
+      "endTowers": [
+        79,
+        85,
+        94,
+        82
+      ],
+      "variations": [
+        "type:structure:lava",
+        "chest:structure:golden_carrot",
+        "biome:structure:forest",
+        "type:structure:lava",
+        "chest:structure:golden_carrot",
+        "biome:structure:forest",
+        "bastion:triple:2",
+        "biome:bastion:nether_wastes",
+        "biome:fortress:crimson_forest",
+        "end_tower:caged:front",
+        "end_tower:caged:back_center"
+      ]
+    }
+  },
+  {
+    "rank": 30,
+    "id": 3518502,
+    "season": 9,
+    "date": 1762087019,
+    "time": 395895,
+    "user": {
+      "uuid": "553414a2c89b4d6b8c0ba5bd89284508",
+      "nickname": "ulsah1n",
+      "roleType": 0,
+      "eloRate": 1676,
+      "eloRank": 46,
+      "country": "tr"
+    },
+    "seed": {
+      "id": "m722wnm2umffe0de",
+      "overworld": "RUINED_PORTAL",
+      "nether": "STABLES",
+      "endTowers": [
+        85,
+        82,
+        79,
+        88
+      ],
+      "variations": [
+        "type:structure:completable",
+        "biome:structure:beach",
+        "type:structure:completable",
+        "biome:structure:beach",
+        "bastion:good_gap:1",
+        "bastion:triple:2",
+        "bastion:small_single:1",
+        "biome:bastion:nether_wastes",
+        "biome:fortress:warped_forest",
+        "end_tower:caged:front_center",
+        "end_tower:caged:back"
+      ]
+    }
+  },
+  {
+    "rank": 31,
+    "id": 4576693,
+    "season": 10,
+    "date": 1767388221,
+    "time": 396273,
+    "user": {
+      "uuid": "2988fcfbc6b141a497faa915e13b6592",
+      "nickname": "AutomattPLUS",
+      "roleType": 3,
+      "eloRate": 1747,
+      "eloRank": 27,
+      "country": "pl"
+    },
+    "seed": {
+      "id": "m722uwxzo2nj5lsh",
+      "overworld": "BURIED_TREASURE",
+      "nether": "BRIDGE",
+      "endTowers": [
+        85,
+        97,
+        76,
+        88
+      ],
+      "variations": [
+        "biome:structure:deep_cold_ocean",
+        "biome:structure:deep_cold_ocean",
+        "bastion:triple:1",
+        "bastion:single:1",
+        "biome:bastion:crimson_forest",
+        "biome:fortress:soul_sand_valley"
+      ]
+    }
+  },
+  {
+    "rank": 32,
+    "id": 4680426,
+    "season": 10,
+    "date": 1767626895,
+    "time": 396670,
+    "user": {
+      "uuid": "78a8ec9f99d34371b73decd2a78ff9b0",
+      "nickname": "TUDORULE",
+      "roleType": 1,
+      "eloRate": 1818,
+      "eloRank": 14,
+      "country": "ro"
+    },
+    "seed": {
+      "id": "m72366hne5p9qesu",
+      "overworld": "RUINED_PORTAL",
+      "nether": "TREASURE",
+      "endTowers": [
+        88,
+        76,
+        85,
+        94
+      ],
+      "variations": [
+        "type:structure:lava",
+        "chest:structure:golden_carrot",
+        "biome:structure:forest",
+        "type:structure:lava",
+        "chest:structure:golden_carrot",
+        "biome:structure:forest",
+        "biome:bastion:warped_forest",
+        "biome:fortress:crimson_forest"
+      ]
+    }
+  },
+  {
+    "rank": 33,
+    "id": 2988737,
+    "season": 9,
+    "date": 1757557995,
+    "time": 396692,
+    "user": {
+      "uuid": "3c8757790ab0400b8b9e3936e0dd535b",
+      "nickname": "doogile",
+      "roleType": 3,
+      "eloRate": 1743,
+      "eloRank": 28,
+      "country": "us"
+    },
+    "seed": {
+      "id": "m722wb3zot3919bj",
+      "overworld": "RUINED_PORTAL",
+      "nether": "HOUSING",
+      "endTowers": [
+        88,
+        100,
+        79,
+        91
+      ],
+      "variations": [
+        "type:structure:lava",
+        "chest:structure:golden_carrot",
+        "biome:structure:plains",
+        "type:structure:lava",
+        "chest:structure:golden_carrot",
+        "biome:structure:plains",
+        "bastion:triple:2",
+        "biome:bastion:nether_wastes",
+        "biome:fortress:warped_forest",
+        "end_tower:caged:back"
+      ]
+    }
+  },
+  {
+    "rank": 34,
+    "id": 3203375,
+    "season": 9,
+    "date": 1759514966,
+    "time": 396947,
+    "user": {
+      "uuid": "cc432b2626a44ae1836a50244adbf468",
+      "nickname": "XSpocony_MaciekX",
+      "roleType": 1,
+      "eloRate": 1981,
+      "eloRank": 6,
+      "country": "pl"
+    },
+    "seed": {
+      "id": "m722u91fgtp4tlpp",
+      "overworld": "RUINED_PORTAL",
+      "nether": "STABLES",
+      "endTowers": [
+        97,
+        100,
+        94,
+        88
+      ],
+      "variations": [
+        "type:structure:lava",
+        "chest:structure:golden_carrot",
+        "chest:structure:looting_sword",
+        "biome:structure:beach",
+        "type:structure:lava",
+        "chest:structure:golden_carrot",
+        "chest:structure:looting_sword",
+        "biome:structure:beach",
+        "bastion:good_gap:1",
+        "bastion:triple:2",
+        "bastion:small_single:1",
+        "biome:bastion:crimson_forest",
+        "biome:fortress:nether_wastes"
+      ]
+    }
+  },
+  {
+    "rank": 35,
+    "id": 2216017,
+    "season": 8,
+    "date": 1748412370,
+    "time": 397415,
+    "user": {
+      "uuid": "25349f93cf194f3baeee93d024eccc21",
+      "nickname": "retropog",
+      "roleType": 0,
+      "eloRate": 1655,
+      "eloRank": 55,
+      "country": "au"
+    },
+    "seed": {
+      "id": "m722t4yjps3uj83t",
+      "overworld": "RUINED_PORTAL",
+      "nether": "BRIDGE",
+      "endTowers": [
+        82,
+        85,
+        97,
+        76
+      ],
+      "variations": [
+        "type:structure:completable",
+        "chest:structure:golden_carrot",
+        "biome:structure:plains",
+        "type:structure:completable",
+        "chest:structure:golden_carrot",
+        "biome:structure:plains",
+        "bastion:triple:1",
+        "bastion:single:1",
+        "biome:bastion:soul_sand_valley",
+        "biome:fortress:nether_wastes",
+        "end_tower:caged:front"
+      ]
+    }
+  },
+  {
+    "rank": 36,
+    "id": 2994169,
+    "season": 9,
+    "date": 1757618131,
+    "time": 397521,
+    "user": {
+      "uuid": "8826e1e6d21b46ecbc5d5246b836f36a",
+      "nickname": "4antoo",
+      "roleType": 0,
+      "eloRate": 1664,
+      "eloRank": 50,
+      "country": "it"
+    },
+    "seed": {
+      "id": "m7237rw2k07hcwbx",
+      "overworld": "BURIED_TREASURE",
+      "nether": "STABLES",
+      "endTowers": [
+        85,
+        88,
+        94,
+        82
+      ],
+      "variations": [
+        "biome:structure:deep_ocean",
+        "biome:structure:deep_ocean",
+        "bastion:good_gap:2",
+        "bastion:triple:2",
+        "bastion:single:1",
+        "biome:bastion:soul_sand_valley",
+        "biome:fortress:crimson_forest",
+        "end_tower:caged:back_center"
+      ]
+    }
+  },
+  {
+    "rank": 37,
+    "id": 2914014,
+    "season": 9,
+    "date": 1756775164,
+    "time": 397869,
+    "user": {
+      "uuid": "a54e3bc4c6354b07a236b81efbcfe791",
+      "nickname": "Infume",
+      "roleType": 2,
+      "eloRate": 2152,
+      "eloRank": 1,
+      "country": "us"
+    },
+    "seed": {
+      "id": "m7233yqgtck54dlv",
+      "overworld": "RUINED_PORTAL",
+      "nether": "HOUSING",
+      "endTowers": [
+        76,
+        94,
+        97,
+        85
+      ],
+      "variations": [
+        "type:structure:completable",
+        "chest:structure:looting_sword",
+        "biome:structure:beach",
+        "type:structure:completable",
+        "chest:structure:looting_sword",
+        "biome:structure:beach",
+        "bastion:triple:1",
+        "biome:bastion:nether_wastes",
+        "biome:fortress:nether_wastes"
+      ]
+    }
+  },
+  {
+    "rank": 38,
+    "id": 3324455,
+    "season": 9,
+    "date": 1760498545,
+    "time": 398065,
+    "user": {
+      "uuid": "3c8757790ab0400b8b9e3936e0dd535b",
+      "nickname": "doogile",
+      "roleType": 3,
+      "eloRate": 1743,
+      "eloRank": 28,
+      "country": "us"
+    },
+    "seed": {
+      "id": "m723bxl3kssgpfph",
+      "overworld": "RUINED_PORTAL",
+      "nether": "HOUSING",
+      "endTowers": [
+        91,
+        100,
+        79,
+        94
+      ],
+      "variations": [
+        "type:structure:completable",
+        "biome:structure:forest",
+        "type:structure:completable",
+        "biome:structure:forest",
+        "bastion:triple:1",
+        "bastion:single:1",
+        "biome:bastion:warped_forest",
+        "biome:fortress:nether_wastes",
+        "end_tower:caged:back"
+      ]
+    }
+  },
+  {
+    "rank": 39,
+    "id": 3484009,
+    "season": 9,
+    "date": 1761841688,
+    "time": 398090,
+    "user": {
+      "uuid": "c670041ed84c480cab4a6ee904905b5f",
+      "nickname": "paplerr",
+      "roleType": 2,
+      "eloRate": null,
+      "eloRank": null,
+      "country": "fj"
+    },
+    "seed": {
+      "id": "m72326kxi6e2825r",
+      "overworld": "RUINED_PORTAL",
+      "nether": "HOUSING",
+      "endTowers": [
+        76,
+        79,
+        91,
+        103
+      ],
+      "variations": [
+        "type:structure:completable",
+        "biome:structure:forest",
+        "type:structure:completable",
+        "biome:structure:forest",
+        "bastion:triple:2",
+        "biome:bastion:nether_wastes",
+        "biome:fortress:soul_sand_valley",
+        "end_tower:caged:front_center"
+      ]
+    }
+  },
+  {
+    "rank": 40,
+    "id": 4107616,
+    "season": 9,
+    "date": 1765725278,
+    "time": 398123,
+    "user": {
+      "uuid": "048de51800794a208de7f01652513c32",
+      "nickname": "q3awreh4yu78i",
+      "roleType": 1,
+      "eloRate": 1572,
+      "eloRank": 136,
+      "country": "cw"
+    },
+    "seed": {
+      "id": "m723a79dvgoqr56b",
+      "overworld": "RUINED_PORTAL",
+      "nether": "STABLES",
+      "endTowers": [
+        94,
+        103,
+        82,
+        91
+      ],
+      "variations": [
+        "type:structure:lava",
+        "biome:structure:forest",
+        "type:structure:lava",
+        "biome:structure:forest",
+        "bastion:good_gap:1",
+        "bastion:triple:1",
+        "bastion:single:1",
+        "bastion:small_single:1",
+        "biome:bastion:nether_wastes",
+        "biome:fortress:soul_sand_valley",
+        "end_spawn:buried:56",
+        "end_tower:caged:back"
+      ]
+    }
+  },
+  {
+    "rank": 41,
+    "id": 3237388,
+    "season": 9,
+    "date": 1759782417,
+    "time": 398460,
+    "user": {
+      "uuid": "3c8757790ab0400b8b9e3936e0dd535b",
+      "nickname": "doogile",
+      "roleType": 3,
+      "eloRate": 1743,
+      "eloRank": 28,
+      "country": "us"
+    },
+    "seed": {
+      "id": "m7231480i8k62375",
+      "overworld": "RUINED_PORTAL",
+      "nether": "HOUSING",
+      "endTowers": [
+        79,
+        103,
+        88,
+        82
+      ],
+      "variations": [
+        "type:structure:completable",
+        "biome:structure:plains",
+        "type:structure:completable",
+        "biome:structure:plains",
+        "bastion:triple:1",
+        "biome:bastion:crimson_forest",
+        "biome:fortress:crimson_forest",
+        "end_spawn:buried:57",
+        "end_tower:caged:front",
+        "end_tower:caged:back_center"
+      ]
+    }
+  },
+  {
+    "rank": 42,
+    "id": 2358357,
+    "season": 8,
+    "date": 1750260465,
+    "time": 398485,
+    "user": {
+      "uuid": "553414a2c89b4d6b8c0ba5bd89284508",
+      "nickname": "ulsah1n",
+      "roleType": 0,
+      "eloRate": 1676,
+      "eloRank": 46,
+      "country": "tr"
+    },
+    "seed": {
+      "id": "m722w30za8rhv1kl",
+      "overworld": "BURIED_TREASURE",
+      "nether": "TREASURE",
+      "endTowers": [
+        79,
+        94,
+        100,
+        97
+      ],
+      "variations": [
+        "biome:structure:deep_ocean",
+        "biome:structure:deep_ocean",
+        "biome:bastion:nether_wastes",
+        "biome:fortress:crimson_forest",
+        "end_tower:caged:front"
+      ]
+    }
+  },
+  {
+    "rank": 43,
+    "id": 3815634,
+    "season": 9,
+    "date": 1764121833,
+    "time": 398873,
+    "user": {
+      "uuid": "a54e3bc4c6354b07a236b81efbcfe791",
+      "nickname": "Infume",
+      "roleType": 2,
+      "eloRate": 2152,
+      "eloRank": 1,
+      "country": "us"
+    },
+    "seed": {
+      "id": "m72393lpqxqb0ncu",
+      "overworld": "SHIPWRECK",
+      "nether": "BRIDGE",
+      "endTowers": [
+        94,
+        97,
+        76,
+        91
+      ],
+      "variations": [
+        "chest:structure:carrot",
+        "biome:structure:deep_cold_ocean",
+        "type:structure:full",
+        "chest:structure:carrot",
+        "biome:structure:deep_cold_ocean",
+        "type:structure:full",
+        "bastion:triple:1",
+        "bastion:single:1",
+        "biome:bastion:warped_forest",
+        "biome:fortress:warped_forest",
+        "end_spawn:buried:56"
+      ]
+    }
+  },
+  {
+    "rank": 44,
+    "id": 944050,
+    "season": 5,
+    "date": 1715133418,
+    "time": 399012,
+    "user": {
+      "uuid": "410e5776b03a424d8740557bac2d9014",
+      "nickname": "JoomzMonkey",
+      "roleType": 0,
+      "eloRate": 1715,
+      "eloRank": 32,
+      "country": "us"
+    },
+    "seed": {
+      "id": null,
+      "overworld": "RUINED_PORTAL",
+      "nether": "TREASURE",
+      "endTowers": null,
+      "variations": []
+    }
+  },
+  {
+    "rank": 45,
+    "id": 4251284,
+    "season": 9,
+    "date": 1766383669,
+    "time": 399336,
+    "user": {
+      "uuid": "4cf401d7b9474756b06a653867d22fca",
+      "nickname": "BadGamer",
+      "roleType": 1,
+      "eloRate": 1833,
+      "eloRank": 13,
+      "country": "ca"
+    },
+    "seed": {
+      "id": "m72336z0tu6mkh1s",
+      "overworld": "RUINED_PORTAL",
+      "nether": "HOUSING",
+      "endTowers": [
+        85,
+        76,
+        94,
+        103
+      ],
+      "variations": [
+        "type:structure:lava",
+        "biome:structure:beach",
+        "type:structure:lava",
+        "biome:structure:beach",
+        "bastion:triple:2",
+        "biome:bastion:nether_wastes",
+        "biome:fortress:nether_wastes"
+      ]
+    }
+  },
+  {
+    "rank": 46,
+    "id": 2806625,
+    "season": 9,
+    "date": 1755775868,
+    "time": 399786,
+    "user": {
+      "uuid": "25349f93cf194f3baeee93d024eccc21",
+      "nickname": "retropog",
+      "roleType": 0,
+      "eloRate": 1655,
+      "eloRank": 55,
+      "country": "au"
+    },
+    "seed": {
+      "id": "m723cwb4axnm4dhm",
+      "overworld": "RUINED_PORTAL",
+      "nether": "TREASURE",
+      "endTowers": [
+        76,
+        94,
+        88,
+        97
+      ],
+      "variations": [
+        "type:structure:lava",
+        "biome:structure:plains",
+        "type:structure:lava",
+        "biome:structure:plains",
+        "biome:bastion:nether_wastes",
+        "biome:fortress:nether_wastes"
+      ]
+    }
+  },
+  {
+    "rank": 47,
+    "id": 3225789,
+    "season": 9,
+    "date": 1759686097,
+    "time": 399994,
+    "user": {
+      "uuid": "7665f76f431b41c6b321bea16aff913b",
+      "nickname": "lowk3y_",
+      "roleType": 3,
+      "eloRate": 1777,
+      "eloRank": 20,
+      "country": null
+    },
+    "seed": {
+      "id": "m7233i29kbmc39r0",
+      "overworld": "RUINED_PORTAL",
+      "nether": "TREASURE",
+      "endTowers": [
+        88,
+        100,
+        103,
+        94
+      ],
+      "variations": [
+        "type:structure:completable",
+        "biome:structure:birch_forest",
+        "type:structure:completable",
+        "biome:structure:birch_forest",
+        "biome:bastion:nether_wastes",
+        "biome:fortress:crimson_forest",
+        "end_spawn:buried:52"
+      ]
+    }
+  },
+  {
+    "rank": 48,
+    "id": 3275685,
+    "season": 9,
+    "date": 1760121632,
+    "time": 400050,
+    "user": {
+      "uuid": "a5d83ff042164ff1b862dedc118c1dae",
+      "nickname": "steez",
+      "roleType": 0,
+      "eloRate": 1873,
+      "eloRank": 11,
+      "country": "gb"
+    },
+    "seed": {
+      "id": "m722zx4rnn4w8ngr",
+      "overworld": "BURIED_TREASURE",
+      "nether": "TREASURE",
+      "endTowers": [
+        103,
+        88,
+        79,
+        91
+      ],
+      "variations": [
+        "biome:structure:deep_cold_ocean",
+        "biome:structure:deep_cold_ocean",
+        "biome:bastion:soul_sand_valley",
+        "biome:fortress:nether_wastes",
+        "end_tower:caged:back"
+      ]
+    }
+  },
+  {
+    "rank": 49,
+    "id": 3678099,
+    "season": 9,
+    "date": 1763173711,
+    "time": 400117,
+    "user": {
+      "uuid": "25349f93cf194f3baeee93d024eccc21",
+      "nickname": "retropog",
+      "roleType": 0,
+      "eloRate": 1655,
+      "eloRank": 55,
+      "country": "au"
+    },
+    "seed": {
+      "id": "m723axomnoy5lri7",
+      "overworld": "RUINED_PORTAL",
+      "nether": "STABLES",
+      "endTowers": [
+        100,
+        76,
+        91,
+        85
+      ],
+      "variations": [
+        "type:structure:lava",
+        "chest:structure:looting_sword",
+        "biome:structure:plains",
+        "type:structure:lava",
+        "chest:structure:looting_sword",
+        "biome:structure:plains",
+        "bastion:good_gap:1",
+        "bastion:triple:1",
+        "bastion:single:2",
+        "biome:bastion:nether_wastes",
+        "biome:fortress:crimson_forest"
+      ]
+    }
+  },
+  {
+    "rank": 50,
+    "id": 4432960,
+    "season": 9,
+    "date": 1767015376,
+    "time": 400216,
+    "user": {
+      "uuid": "92b63a39b36a445fa94c77ae212dcea3",
+      "nickname": "bing_pigs",
+      "roleType": 3,
+      "eloRate": 2002,
+      "eloRank": 5,
+      "country": "au"
+    },
+    "seed": {
+      "id": "m722v74robbaxc1v",
+      "overworld": "RUINED_PORTAL",
+      "nether": "HOUSING",
+      "endTowers": [
+        94,
+        79,
+        97,
+        85
+      ],
+      "variations": [
+        "type:structure:completable",
+        "chest:structure:looting_sword",
+        "biome:structure:birch_forest",
+        "type:structure:completable",
+        "chest:structure:looting_sword",
+        "biome:structure:birch_forest",
+        "bastion:triple:2",
+        "biome:bastion:crimson_forest",
+        "biome:fortress:nether_wastes",
+        "end_spawn:buried:45",
+        "end_tower:caged:front_center"
+      ]
+    }
+  },
+  {
+    "rank": 51,
+    "id": 3601652,
+    "season": 9,
+    "date": 1762669985,
+    "time": 400502,
+    "user": {
+      "uuid": "70eb9286e3e24153a8b37c8f884f1292",
+      "nickname": "7rowl",
+      "roleType": 3,
+      "eloRate": 1797,
+      "eloRank": 18,
+      "country": "ua"
+    },
+    "seed": {
+      "id": "m7230c5dgz9f52ng",
+      "overworld": "RUINED_PORTAL",
+      "nether": "STABLES",
+      "endTowers": [
+        100,
+        88,
+        85,
+        91
+      ],
+      "variations": [
+        "type:structure:lava",
+        "biome:structure:plains",
+        "type:structure:lava",
+        "biome:structure:plains",
+        "bastion:good_gap:1",
+        "bastion:triple:2",
+        "bastion:small_single:1",
+        "biome:bastion:warped_forest",
+        "biome:fortress:nether_wastes",
+        "end_spawn:buried:57"
+      ]
+    }
+  },
+  {
+    "rank": 52,
+    "id": 3280735,
+    "season": 9,
+    "date": 1760158731,
+    "time": 400505,
+    "user": {
+      "uuid": "d7e1777addd845b994867237ba0a6473",
+      "nickname": "dontfwjosh",
+      "roleType": 0,
+      "eloRate": 1506,
+      "eloRank": 225,
+      "country": "ca"
+    },
+    "seed": {
+      "id": "m7237xztegauqk09",
+      "overworld": "RUINED_PORTAL",
+      "nether": "HOUSING",
+      "endTowers": [
+        97,
+        88,
+        82,
+        85
+      ],
+      "variations": [
+        "type:structure:lava",
+        "biome:structure:savanna",
+        "type:structure:lava",
+        "biome:structure:savanna",
+        "bastion:triple:2",
+        "biome:bastion:soul_sand_valley",
+        "biome:fortress:soul_sand_valley",
+        "end_tower:caged:back"
+      ]
+    }
+  },
+  {
+    "rank": 53,
+    "id": 2725466,
+    "season": 8,
+    "date": 1754961889,
+    "time": 400578,
+    "user": {
+      "uuid": "17e787d1d6374f818b294f2319db370d",
+      "nickname": "silverrruns",
+      "roleType": 2,
+      "eloRate": 1700,
+      "eloRank": 37,
+      "country": "ca"
+    },
+    "seed": {
+      "id": "m722vidgqy1soxss",
+      "overworld": "RUINED_PORTAL",
+      "nether": "TREASURE",
+      "endTowers": [
+        82,
+        97,
+        76,
+        91
+      ],
+      "variations": [
+        "type:structure:lava",
+        "biome:structure:plains",
+        "type:structure:lava",
+        "biome:structure:plains",
+        "biome:bastion:soul_sand_valley",
+        "biome:fortress:crimson_forest",
+        "end_spawn:buried:56",
+        "end_tower:caged:front"
+      ]
+    }
+  },
+  {
+    "rank": 54,
+    "id": 4421418,
+    "season": 9,
+    "date": 1766976447,
+    "time": 400590,
+    "user": {
+      "uuid": "a54e3bc4c6354b07a236b81efbcfe791",
+      "nickname": "Infume",
+      "roleType": 2,
+      "eloRate": 2152,
+      "eloRank": 1,
+      "country": "us"
+    },
+    "seed": {
+      "id": "m722zrghgsz7royi",
+      "overworld": "RUINED_PORTAL",
+      "nether": "BRIDGE",
+      "endTowers": [
+        82,
+        79,
+        76,
+        88
+      ],
+      "variations": [
+        "type:structure:completable",
+        "biome:structure:beach",
+        "type:structure:completable",
+        "biome:structure:beach",
+        "bastion:triple:1",
+        "bastion:single:1",
+        "biome:bastion:nether_wastes",
+        "biome:fortress:basalt_deltas",
+        "end_spawn:buried:56",
+        "end_tower:caged:front",
+        "end_tower:caged:front_center"
+      ]
+    }
+  },
+  {
+    "rank": 55,
+    "id": 4518644,
+    "season": 9,
+    "date": 1767240823,
+    "time": 400846,
+    "user": {
+      "uuid": "0d0f007a376a462299bf23f2f713b0e5",
+      "nickname": "MrBudgiee",
+      "roleType": 1,
+      "eloRate": 1761,
+      "eloRank": 22,
+      "country": "ca"
+    },
+    "seed": {
+      "id": "m72380t2ieudcqjd",
+      "overworld": "RUINED_PORTAL",
+      "nether": "HOUSING",
+      "endTowers": [
+        82,
+        76,
+        100,
+        88
+      ],
+      "variations": [
+        "type:structure:completable",
+        "biome:structure:savanna",
+        "type:structure:completable",
+        "biome:structure:savanna",
+        "bastion:triple:1",
+        "biome:bastion:crimson_forest",
+        "biome:fortress:soul_sand_valley",
+        "end_tower:caged:front"
+      ]
+    }
+  },
+  {
+    "rank": 56,
+    "id": 2177018,
+    "season": 8,
+    "date": 1747930987,
+    "time": 401084,
+    "user": {
+      "uuid": "7665f76f431b41c6b321bea16aff913b",
+      "nickname": "lowk3y_",
+      "roleType": 3,
+      "eloRate": 1777,
+      "eloRank": 20,
+      "country": null
+    },
+    "seed": {
+      "id": "m7239wbp2iz26s0r",
+      "overworld": "BURIED_TREASURE",
+      "nether": "BRIDGE",
+      "endTowers": [
+        76,
+        79,
+        94,
+        88
+      ],
+      "variations": [
+        "biome:structure:deep_ocean",
+        "biome:structure:deep_ocean",
+        "bastion:triple:2",
+        "biome:bastion:nether_wastes",
+        "biome:fortress:nether_wastes",
+        "end_spawn:buried:47",
+        "end_tower:caged:front_center"
+      ]
+    }
+  },
+  {
+    "rank": 57,
+    "id": 4612935,
+    "season": 10,
+    "date": 1767469339,
+    "time": 401764,
+    "user": {
+      "uuid": "78ea25c3db9a4830ba7e78074bd6fd10",
+      "nickname": "ogurikappa",
+      "roleType": 0,
+      "eloRate": 1532,
+      "eloRank": 179,
+      "country": "my"
+    },
+    "seed": {
+      "id": "m7233lgn188b130t",
+      "overworld": "BURIED_TREASURE",
+      "nether": "HOUSING",
+      "endTowers": [
+        82,
+        103,
+        79,
+        97
+      ],
+      "variations": [
+        "biome:structure:deep_cold_ocean",
+        "biome:structure:deep_cold_ocean",
+        "bastion:triple:1",
+        "biome:bastion:nether_wastes",
+        "biome:fortress:nether_wastes",
+        "end_tower:caged:front",
+        "end_tower:caged:back"
+      ]
+    }
+  },
+  {
+    "rank": 58,
+    "id": 3507035,
+    "season": 9,
+    "date": 1762014270,
+    "time": 401786,
+    "user": {
+      "uuid": "92b63a39b36a445fa94c77ae212dcea3",
+      "nickname": "bing_pigs",
+      "roleType": 3,
+      "eloRate": 2002,
+      "eloRank": 5,
+      "country": "au"
+    },
+    "seed": {
+      "id": "m722w9vaxlb93vxa",
+      "overworld": "RUINED_PORTAL",
+      "nether": "HOUSING",
+      "endTowers": [
+        100,
+        76,
+        82,
+        94
+      ],
+      "variations": [
+        "type:structure:completable",
+        "chest:structure:looting_sword",
+        "biome:structure:forest",
+        "type:structure:completable",
+        "chest:structure:looting_sword",
+        "biome:structure:forest",
+        "bastion:triple:1",
+        "biome:bastion:crimson_forest",
+        "biome:fortress:nether_wastes",
+        "end_spawn:buried:44",
+        "end_tower:caged:back"
+      ]
+    }
+  },
+  {
+    "rank": 59,
+    "id": 1615639,
+    "season": 7,
+    "date": 1737607563,
+    "time": 401967,
+    "user": {
+      "uuid": "af22aaab9ee74596a3578bd6345d25b5",
+      "nickname": "priffie",
+      "roleType": 0,
+      "eloRate": null,
+      "eloRank": null,
+      "country": null
+    },
+    "seed": {
+      "id": null,
+      "overworld": "RUINED_PORTAL",
+      "nether": "HOUSING",
+      "endTowers": null,
+      "variations": []
+    }
+  },
+  {
+    "rank": 60,
+    "id": 1933335,
+    "season": 7,
+    "date": 1744567201,
+    "time": 402177,
+    "user": {
+      "uuid": "3b01d4b4fef14f178b75f05c04dd34ef",
+      "nickname": "BeefSalad",
+      "roleType": 3,
+      "eloRate": 1952,
+      "eloRank": 7,
+      "country": "gb"
+    },
+    "seed": {
+      "id": "m722tn9poflfv8mn",
+      "overworld": "RUINED_PORTAL",
+      "nether": "HOUSING",
+      "endTowers": [
+        82,
+        100,
+        85,
+        103
+      ],
+      "variations": [
+        "type:structure:lava",
+        "chest:structure:looting_sword",
+        "biome:structure:plains",
+        "type:structure:lava",
+        "chest:structure:looting_sword",
+        "biome:structure:plains",
+        "bastion:triple:2",
+        "biome:bastion:nether_wastes",
+        "biome:fortress:nether_wastes",
+        "end_spawn:buried:57",
+        "end_tower:caged:front"
+      ]
+    }
+  },
+  {
+    "rank": 61,
+    "id": 2414802,
+    "season": 8,
+    "date": 1750953841,
+    "time": 402926,
+    "user": {
+      "uuid": "78ea25c3db9a4830ba7e78074bd6fd10",
+      "nickname": "ogurikappa",
+      "roleType": 0,
+      "eloRate": 1532,
+      "eloRank": 179,
+      "country": "my"
+    },
+    "seed": {
+      "id": "m72317m04v471tnh",
+      "overworld": "RUINED_PORTAL",
+      "nether": "HOUSING",
+      "endTowers": [
+        97,
+        94,
+        91,
+        79
+      ],
+      "variations": [
+        "type:structure:lava",
+        "chest:structure:golden_carrot",
+        "biome:structure:plains",
+        "type:structure:lava",
+        "chest:structure:golden_carrot",
+        "biome:structure:plains",
+        "bastion:triple:2",
+        "biome:bastion:nether_wastes",
+        "biome:fortress:nether_wastes",
+        "end_tower:caged:back_center"
+      ]
+    }
+  },
+  {
+    "rank": 62,
+    "id": 2390738,
+    "season": 8,
+    "date": 1750631576,
+    "time": 403007,
+    "user": {
+      "uuid": "d93d53f5b7bd4fdc970d67a772936c81",
+      "nickname": "Shiny_Chingling",
+      "roleType": 1,
+      "eloRate": 1606,
+      "eloRank": 93,
+      "country": "be"
+    },
+    "seed": {
+      "id": "m7231ij11ygx4kdx",
+      "overworld": "RUINED_PORTAL",
+      "nether": "HOUSING",
+      "endTowers": [
+        76,
+        85,
+        91,
+        82
+      ],
+      "variations": [
+        "type:structure:lava",
+        "chest:structure:golden_carrot",
+        "biome:structure:forest",
+        "type:structure:lava",
+        "chest:structure:golden_carrot",
+        "biome:structure:forest",
+        "bastion:triple:1",
+        "biome:bastion:crimson_forest",
+        "biome:fortress:soul_sand_valley",
+        "end_tower:caged:back_center"
+      ]
+    }
+  },
+  {
+    "rank": 63,
+    "id": 4007831,
+    "season": 9,
+    "date": 1765242316,
+    "time": 403144,
+    "user": {
+      "uuid": "3c8757790ab0400b8b9e3936e0dd535b",
+      "nickname": "doogile",
+      "roleType": 3,
+      "eloRate": 1743,
+      "eloRank": 28,
+      "country": "us"
+    },
+    "seed": {
+      "id": "m7230ecci3o6zxm7",
+      "overworld": "RUINED_PORTAL",
+      "nether": "STABLES",
+      "endTowers": [
+        79,
+        100,
+        82,
+        91
+      ],
+      "variations": [
+        "type:structure:lava",
+        "biome:structure:plains",
+        "type:structure:lava",
+        "biome:structure:plains",
+        "bastion:good_gap:2",
+        "bastion:single:2",
+        "bastion:small_single:1",
+        "biome:bastion:crimson_forest",
+        "biome:fortress:soul_sand_valley",
+        "end_spawn:buried:36",
+        "end_tower:caged:front",
+        "end_tower:caged:back"
+      ]
+    }
+  },
+  {
+    "rank": 64,
+    "id": 2335009,
+    "season": 8,
+    "date": 1749945713,
+    "time": 403425,
+    "user": {
+      "uuid": "939ddf85303441de901d60bfa4109318",
+      "nickname": "thecamo6",
+      "roleType": 3,
+      "eloRate": 1628,
+      "eloRank": 74,
+      "country": "us"
+    },
+    "seed": {
+      "id": "m723duwx4e2mtu1f",
+      "overworld": "BURIED_TREASURE",
+      "nether": "STABLES",
+      "endTowers": [
+        88,
+        79,
+        85,
+        94
+      ],
+      "variations": [
+        "biome:structure:deep_ocean",
+        "biome:structure:deep_ocean",
+        "bastion:good_gap:1",
+        "bastion:triple:2",
+        "bastion:small_single:1",
+        "biome:bastion:crimson_forest",
+        "biome:fortress:nether_wastes",
+        "end_tower:caged:front_center"
+      ]
+    }
+  },
+  {
+    "rank": 65,
+    "id": 2457760,
+    "season": 8,
+    "date": 1751498585,
+    "time": 403739,
+    "user": {
+      "uuid": "dd34e44dfe5d4e05923d876b9c34ca5f",
+      "nickname": "Waluyoshi",
+      "roleType": 1,
+      "eloRate": 1684,
+      "eloRank": 42,
+      "country": "sx"
+    },
+    "seed": {
+      "id": "m723b5vxpm61ooez",
+      "overworld": "RUINED_PORTAL",
+      "nether": "HOUSING",
+      "endTowers": [
+        76,
+        82,
+        94,
+        88
+      ],
+      "variations": [
+        "type:structure:lava",
+        "biome:structure:plains",
+        "type:structure:lava",
+        "biome:structure:plains",
+        "bastion:triple:1",
+        "biome:bastion:nether_wastes",
+        "biome:fortress:soul_sand_valley",
+        "end_spawn:buried:57",
+        "end_tower:caged:front_center"
+      ]
+    }
+  },
+  {
+    "rank": 66,
+    "id": 1763208,
+    "season": 7,
+    "date": 1740887045,
+    "time": 404298,
+    "user": {
+      "uuid": "7665f76f431b41c6b321bea16aff913b",
+      "nickname": "lowk3y_",
+      "roleType": 3,
+      "eloRate": 1777,
+      "eloRank": 20,
+      "country": null
+    },
+    "seed": {
+      "id": "m723bwqimw305n16",
+      "overworld": "RUINED_PORTAL",
+      "nether": "HOUSING",
+      "endTowers": [
+        97,
+        76,
+        91,
+        94
+      ],
+      "variations": [
+        "type:structure:lava",
+        "chest:structure:golden_carrot",
+        "biome:structure:savanna",
+        "type:structure:lava",
+        "chest:structure:golden_carrot",
+        "biome:structure:savanna",
+        "bastion:triple:2",
+        "biome:bastion:nether_wastes",
+        "biome:fortress:nether_wastes"
+      ]
+    }
+  },
+  {
+    "rank": 67,
+    "id": 3469656,
+    "season": 9,
+    "date": 1761691628,
+    "time": 404464,
+    "user": {
+      "uuid": "635f35ee69ed4f0c94ff26ece4818956",
+      "nickname": "edcr",
+      "roleType": 3,
+      "eloRate": 2100,
+      "eloRank": 2,
+      "country": "cf"
+    },
+    "seed": {
+      "id": "m7234yfnhc6cfd5z",
+      "overworld": "RUINED_PORTAL",
+      "nether": "STABLES",
+      "endTowers": [
+        103,
+        76,
+        97,
+        82
+      ],
+      "variations": [
+        "type:structure:completable",
+        "chest:structure:golden_carrot",
+        "biome:structure:forest",
+        "type:structure:completable",
+        "chest:structure:golden_carrot",
+        "biome:structure:forest",
+        "bastion:good_gap:1",
+        "bastion:triple:2",
+        "bastion:single:1",
+        "biome:bastion:nether_wastes",
+        "biome:fortress:warped_forest",
+        "end_tower:caged:back_center"
+      ]
+    }
+  },
+  {
+    "rank": 68,
+    "id": 1000424,
+    "season": 5,
+    "date": 1717441437,
+    "time": 404473,
+    "user": {
+      "uuid": "bbd1dbd2f3ed4c43b62fc7572229ee61",
+      "nickname": "romuxii",
+      "roleType": 0,
+      "eloRate": 1907,
+      "eloRank": 8,
+      "country": "by"
+    },
+    "seed": {
+      "id": null,
+      "overworld": "RUINED_PORTAL",
+      "nether": "HOUSING",
+      "endTowers": null,
+      "variations": []
+    }
+  },
+  {
+    "rank": 69,
+    "id": 4465546,
+    "season": 9,
+    "date": 1767099869,
+    "time": 404594,
+    "user": {
+      "uuid": "25349f93cf194f3baeee93d024eccc21",
+      "nickname": "retropog",
+      "roleType": 0,
+      "eloRate": 1655,
+      "eloRank": 55,
+      "country": "au"
+    },
+    "seed": {
+      "id": "m722wau8m4xqmkda",
+      "overworld": "RUINED_PORTAL",
+      "nether": "TREASURE",
+      "endTowers": [
+        103,
+        88,
+        76,
+        85
+      ],
+      "variations": [
+        "type:structure:lava",
+        "chest:structure:looting_sword",
+        "biome:structure:savanna",
+        "type:structure:lava",
+        "chest:structure:looting_sword",
+        "biome:structure:savanna",
+        "biome:bastion:crimson_forest",
+        "biome:fortress:warped_forest"
+      ]
+    }
+  },
+  {
+    "rank": 70,
+    "id": 4527894,
+    "season": 9,
+    "date": 1767270840,
+    "time": 404746,
+    "user": {
+      "uuid": "635f35ee69ed4f0c94ff26ece4818956",
+      "nickname": "edcr",
+      "roleType": 3,
+      "eloRate": 2100,
+      "eloRank": 2,
+      "country": "cf"
+    },
+    "seed": {
+      "id": "m7231gpp651v1789",
+      "overworld": "DESERT_TEMPLE",
+      "nether": "TREASURE",
+      "endTowers": [
+        76,
+        91,
+        85,
+        82
+      ],
+      "variations": [
+        "biome:bastion:soul_sand_valley",
+        "biome:fortress:nether_wastes",
+        "end_tower:caged:back_center"
+      ]
+    }
+  },
+  {
+    "rank": 71,
+    "id": 2653650,
+    "season": 8,
+    "date": 1754079867,
+    "time": 405299,
+    "user": {
+      "uuid": "bc80af38933f4ae19b0494681a54422b",
+      "nickname": "Ancoboyy",
+      "roleType": 1,
+      "eloRate": 1890,
+      "eloRank": 10,
+      "country": "tr"
+    },
+    "seed": {
+      "id": "m7233j7gxa4e6lv3",
+      "overworld": "RUINED_PORTAL",
+      "nether": "STABLES",
+      "endTowers": [
+        100,
+        88,
+        76,
+        82
+      ],
+      "variations": [
+        "type:structure:completable",
+        "chest:structure:golden_carrot",
+        "biome:structure:forest",
+        "type:structure:completable",
+        "chest:structure:golden_carrot",
+        "biome:structure:forest",
+        "bastion:good_gap:2",
+        "bastion:triple:1",
+        "bastion:single:2",
+        "biome:bastion:crimson_forest",
+        "biome:fortress:nether_wastes",
+        "end_tower:caged:back_center"
+      ]
+    }
+  },
+  {
+    "rank": 72,
+    "id": 3371183,
+    "season": 9,
+    "date": 1760876780,
+    "time": 405851,
+    "user": {
+      "uuid": "635f35ee69ed4f0c94ff26ece4818956",
+      "nickname": "edcr",
+      "roleType": 3,
+      "eloRate": 2100,
+      "eloRank": 2,
+      "country": "cf"
+    },
+    "seed": {
+      "id": "m722t01i6mn0q4rq",
+      "overworld": "BURIED_TREASURE",
+      "nether": "HOUSING",
+      "endTowers": [
+        91,
+        85,
+        82,
+        97
+      ],
+      "variations": [
+        "biome:structure:deep_ocean",
+        "biome:structure:deep_ocean",
+        "bastion:triple:2",
+        "biome:bastion:warped_forest",
+        "biome:fortress:warped_forest",
+        "end_tower:caged:back"
+      ]
+    }
+  },
+  {
+    "rank": 73,
+    "id": 2459232,
+    "season": 8,
+    "date": 1751522503,
+    "time": 405900,
+    "user": {
+      "uuid": "dd34e44dfe5d4e05923d876b9c34ca5f",
+      "nickname": "Waluyoshi",
+      "roleType": 1,
+      "eloRate": 1684,
+      "eloRank": 42,
+      "country": "sx"
+    },
+    "seed": {
+      "id": "m723aq0yydejg1mw",
+      "overworld": "BURIED_TREASURE",
+      "nether": "TREASURE",
+      "endTowers": [
+        91,
+        82,
+        97,
+        88
+      ],
+      "variations": [
+        "biome:structure:deep_ocean",
+        "biome:structure:deep_ocean",
+        "biome:bastion:crimson_forest",
+        "biome:fortress:nether_wastes",
+        "end_tower:caged:front_center"
+      ]
+    }
+  },
+  {
+    "rank": 74,
+    "id": 2512424,
+    "season": 8,
+    "date": 1752189488,
+    "time": 405962,
+    "user": {
+      "uuid": "fdff6a3e88054664974dbcd30583fe81",
+      "nickname": "Finnitzko",
+      "roleType": 1,
+      "eloRate": 1520,
+      "eloRank": 199,
+      "country": "de"
+    },
+    "seed": {
+      "id": "m723b6ba6hlv1die",
+      "overworld": "RUINED_PORTAL",
+      "nether": "HOUSING",
+      "endTowers": [
+        79,
+        97,
+        91,
+        100
+      ],
+      "variations": [
+        "type:structure:completable",
+        "chest:structure:golden_carrot",
+        "biome:structure:plains",
+        "type:structure:completable",
+        "chest:structure:golden_carrot",
+        "biome:structure:plains",
+        "bastion:triple:2",
+        "biome:bastion:soul_sand_valley",
+        "biome:fortress:soul_sand_valley",
+        "end_spawn:buried:44",
+        "end_tower:caged:front"
+      ]
+    }
+  },
+  {
+    "rank": 75,
+    "id": 3358159,
+    "season": 9,
+    "date": 1760789523,
+    "time": 406017,
+    "user": {
+      "uuid": "cc432b2626a44ae1836a50244adbf468",
+      "nickname": "XSpocony_MaciekX",
+      "roleType": 1,
+      "eloRate": 1981,
+      "eloRank": 6,
+      "country": "pl"
+    },
+    "seed": {
+      "id": "m722vjrzd35r4lds",
+      "overworld": "BURIED_TREASURE",
+      "nether": "BRIDGE",
+      "endTowers": [
+        100,
+        91,
+        94,
+        82
+      ],
+      "variations": [
+        "biome:structure:deep_lukewarm_ocean",
+        "biome:structure:deep_lukewarm_ocean",
+        "bastion:triple:2",
+        "biome:bastion:soul_sand_valley",
+        "biome:fortress:soul_sand_valley",
+        "end_tower:caged:back_center"
+      ]
+    }
+  },
+  {
+    "rank": 76,
+    "id": 4348789,
+    "season": 9,
+    "date": 1766755709,
+    "time": 406237,
+    "user": {
+      "uuid": "2fe70934e7be458dba747c4ac830391c",
+      "nickname": "nhb_",
+      "roleType": 2,
+      "eloRate": 1591,
+      "eloRank": 113,
+      "country": "cf"
+    },
+    "seed": {
+      "id": "m7237ndveahgzgwd",
+      "overworld": "BURIED_TREASURE",
+      "nether": "BRIDGE",
+      "endTowers": [
+        82,
+        103,
+        76,
+        85
+      ],
+      "variations": [
+        "biome:structure:deep_ocean",
+        "biome:structure:deep_ocean",
+        "bastion:triple:1",
+        "bastion:single:1",
+        "biome:bastion:crimson_forest",
+        "biome:fortress:crimson_forest",
+        "end_spawn:buried:56",
+        "end_tower:caged:front"
+      ]
+    }
+  },
+  {
+    "rank": 77,
+    "id": 3707844,
+    "season": 9,
+    "date": 1763347375,
+    "time": 406426,
+    "user": {
+      "uuid": "c92021f449a94bdc9811a3e5e299820e",
+      "nickname": "oshgay",
+      "roleType": 1,
+      "eloRate": 1603,
+      "eloRank": 99,
+      "country": "mo"
+    },
+    "seed": {
+      "id": "m722teuja9i77pfi",
+      "overworld": "RUINED_PORTAL",
+      "nether": "HOUSING",
+      "endTowers": [
+        100,
+        91,
+        94,
+        97
+      ],
+      "variations": [
+        "type:structure:completable",
+        "chest:structure:golden_carrot",
+        "chest:structure:looting_sword",
+        "biome:structure:plains",
+        "type:structure:completable",
+        "chest:structure:golden_carrot",
+        "chest:structure:looting_sword",
+        "biome:structure:plains",
+        "bastion:triple:1",
+        "bastion:single:1",
+        "biome:bastion:crimson_forest",
+        "biome:fortress:soul_sand_valley"
+      ]
+    }
+  },
+  {
+    "rank": 78,
+    "id": 2816658,
+    "season": 9,
+    "date": 1755869574,
+    "time": 406451,
+    "user": {
+      "uuid": "25349f93cf194f3baeee93d024eccc21",
+      "nickname": "retropog",
+      "roleType": 0,
+      "eloRate": 1655,
+      "eloRank": 55,
+      "country": "au"
+    },
+    "seed": {
+      "id": "m722t4z3surh2qtr",
+      "overworld": "RUINED_PORTAL",
+      "nether": "HOUSING",
+      "endTowers": [
+        82,
+        88,
+        79,
+        85
+      ],
+      "variations": [
+        "type:structure:completable",
+        "biome:structure:forest",
+        "type:structure:completable",
+        "biome:structure:forest",
+        "bastion:triple:2",
+        "biome:bastion:crimson_forest",
+        "biome:fortress:crimson_forest",
+        "end_tower:caged:front",
+        "end_tower:caged:back"
+      ]
+    }
+  },
+  {
+    "rank": 79,
+    "id": 1827549,
+    "season": 7,
+    "date": 1742322398,
+    "time": 406569,
+    "user": {
+      "uuid": "8d52ed9bf12146c68321f1729e28cbf5",
+      "nickname": "WarioTime1",
+      "roleType": 0,
+      "eloRate": 1639,
+      "eloRank": 66,
+      "country": "va"
+    },
+    "seed": {
+      "id": "m7233xl038iagmye",
+      "overworld": "RUINED_PORTAL",
+      "nether": "HOUSING",
+      "endTowers": [
+        79,
+        94,
+        82,
+        103
+      ],
+      "variations": [
+        "type:structure:completable",
+        "biome:structure:plains",
+        "type:structure:completable",
+        "biome:structure:plains",
+        "bastion:triple:1",
+        "biome:bastion:nether_wastes",
+        "biome:fortress:nether_wastes",
+        "end_tower:caged:front",
+        "end_tower:caged:back"
+      ]
+    }
+  },
+  {
+    "rank": 80,
+    "id": 2959523,
+    "season": 9,
+    "date": 1757251391,
+    "time": 406608,
+    "user": {
+      "uuid": "410e5776b03a424d8740557bac2d9014",
+      "nickname": "JoomzMonkey",
+      "roleType": 0,
+      "eloRate": 1715,
+      "eloRank": 32,
+      "country": "us"
+    },
+    "seed": {
+      "id": "m723dw7gp8yifr5w",
+      "overworld": "RUINED_PORTAL",
+      "nether": "HOUSING",
+      "endTowers": [
+        94,
+        88,
+        103,
+        97
+      ],
+      "variations": [
+        "type:structure:lava",
+        "chest:structure:looting_sword",
+        "biome:structure:plains",
+        "type:structure:lava",
+        "chest:structure:looting_sword",
+        "biome:structure:plains",
+        "bastion:triple:2",
+        "biome:bastion:soul_sand_valley",
+        "biome:fortress:soul_sand_valley",
+        "end_spawn:buried:57"
+      ]
+    }
+  },
+  {
+    "rank": 81,
+    "id": 2816424,
+    "season": 9,
+    "date": 1755867865,
+    "time": 406664,
+    "user": {
+      "uuid": "635f35ee69ed4f0c94ff26ece4818956",
+      "nickname": "edcr",
+      "roleType": 3,
+      "eloRate": 2100,
+      "eloRank": 2,
+      "country": "cf"
+    },
+    "seed": {
+      "id": "m7237pnhw5rddioz",
+      "overworld": "RUINED_PORTAL",
+      "nether": "HOUSING",
+      "endTowers": [
+        85,
+        103,
+        79,
+        76
+      ],
+      "variations": [
+        "type:structure:lava",
+        "chest:structure:looting_sword",
+        "biome:structure:forest",
+        "type:structure:lava",
+        "chest:structure:looting_sword",
+        "biome:structure:forest",
+        "bastion:triple:1",
+        "bastion:single:1",
+        "biome:bastion:warped_forest",
+        "biome:fortress:warped_forest",
+        "end_spawn:buried:58",
+        "end_tower:caged:back"
+      ]
+    }
+  },
+  {
+    "rank": 82,
+    "id": 1874087,
+    "season": 7,
+    "date": 1743287158,
+    "time": 406737,
+    "user": {
+      "uuid": "939ddf85303441de901d60bfa4109318",
+      "nickname": "thecamo6",
+      "roleType": 3,
+      "eloRate": 1628,
+      "eloRank": 74,
+      "country": "us"
+    },
+    "seed": {
+      "id": "m7238vsi6wwk6phz",
+      "overworld": "RUINED_PORTAL",
+      "nether": "TREASURE",
+      "endTowers": [
+        79,
+        76,
+        103,
+        91
+      ],
+      "variations": [
+        "type:structure:lava",
+        "chest:structure:golden_carrot",
+        "biome:structure:savanna",
+        "type:structure:lava",
+        "chest:structure:golden_carrot",
+        "biome:structure:savanna",
+        "biome:bastion:soul_sand_valley",
+        "biome:fortress:basalt_deltas",
+        "end_spawn:buried:58",
+        "end_tower:caged:front"
+      ]
+    }
+  },
+  {
+    "rank": 83,
+    "id": 3449643,
+    "season": 9,
+    "date": 1761512397,
+    "time": 406950,
+    "user": {
+      "uuid": "5a32f1e5609847c691c07730f973397c",
+      "nickname": "DARVY__X1",
+      "roleType": 2,
+      "eloRate": 1749,
+      "eloRank": 25,
+      "country": "cf"
+    },
+    "seed": {
+      "id": "m7236kc79s1fff2u",
+      "overworld": "RUINED_PORTAL",
+      "nether": "STABLES",
+      "endTowers": [
+        76,
+        97,
+        82,
+        79
+      ],
+      "variations": [
+        "type:structure:lava",
+        "chest:structure:looting_sword",
+        "biome:structure:forest",
+        "type:structure:lava",
+        "chest:structure:looting_sword",
+        "biome:structure:forest",
+        "bastion:good_gap:1",
+        "bastion:triple:1",
+        "bastion:single:2",
+        "biome:bastion:nether_wastes",
+        "biome:fortress:nether_wastes",
+        "end_tower:caged:back",
+        "end_tower:caged:back_center"
+      ]
+    }
+  },
+  {
+    "rank": 84,
+    "id": 4413778,
+    "season": 9,
+    "date": 1766957625,
+    "time": 407114,
+    "user": {
+      "uuid": "92b63a39b36a445fa94c77ae212dcea3",
+      "nickname": "bing_pigs",
+      "roleType": 3,
+      "eloRate": 2002,
+      "eloRank": 5,
+      "country": "au"
+    },
+    "seed": {
+      "id": "m7230hlyw16s8q0f",
+      "overworld": "RUINED_PORTAL",
+      "nether": "BRIDGE",
+      "endTowers": [
+        100,
+        88,
+        97,
+        82
+      ],
+      "variations": [
+        "type:structure:completable",
+        "biome:structure:forest",
+        "type:structure:completable",
+        "biome:structure:forest",
+        "bastion:triple:2",
+        "biome:bastion:soul_sand_valley",
+        "biome:fortress:nether_wastes",
+        "end_tower:caged:back_center"
+      ]
+    }
+  },
+  {
+    "rank": 85,
+    "id": 3944687,
+    "season": 9,
+    "date": 1764919141,
+    "time": 407256,
+    "user": {
+      "uuid": "25349f93cf194f3baeee93d024eccc21",
+      "nickname": "retropog",
+      "roleType": 0,
+      "eloRate": 1655,
+      "eloRank": 55,
+      "country": "au"
+    },
+    "seed": {
+      "id": "m7233tbssru5eoib",
+      "overworld": "RUINED_PORTAL",
+      "nether": "HOUSING",
+      "endTowers": [
+        94,
+        88,
+        91,
+        100
+      ],
+      "variations": [
+        "type:structure:completable",
+        "biome:structure:forest",
+        "type:structure:completable",
+        "biome:structure:forest",
+        "bastion:triple:2",
+        "biome:bastion:nether_wastes",
+        "biome:fortress:basalt_deltas"
+      ]
+    }
+  },
+  {
+    "rank": 86,
+    "id": 2537017,
+    "season": 8,
+    "date": 1752505870,
+    "time": 407453,
+    "user": {
+      "uuid": "0b164a03002048d3955715422179eedf",
+      "nickname": "KenanKardes",
+      "roleType": 0,
+      "eloRate": 1802,
+      "eloRank": 16,
+      "country": "az"
+    },
+    "seed": {
+      "id": "m7232jajx277djsd",
+      "overworld": "RUINED_PORTAL",
+      "nether": "STABLES",
+      "endTowers": [
+        100,
+        88,
+        79,
+        97
+      ],
+      "variations": [
+        "type:structure:completable",
+        "biome:structure:plains",
+        "type:structure:completable",
+        "biome:structure:plains",
+        "bastion:good_gap:1",
+        "bastion:triple:2",
+        "bastion:single:1",
+        "biome:bastion:soul_sand_valley",
+        "biome:fortress:soul_sand_valley",
+        "end_spawn:buried:50",
+        "end_tower:caged:back"
+      ]
+    }
+  },
+  {
+    "rank": 87,
+    "id": 3423996,
+    "season": 9,
+    "date": 1761334079,
+    "time": 407475,
+    "user": {
+      "uuid": "cc432b2626a44ae1836a50244adbf468",
+      "nickname": "XSpocony_MaciekX",
+      "roleType": 1,
+      "eloRate": 1981,
+      "eloRank": 6,
+      "country": "pl"
+    },
+    "seed": {
+      "id": "m7239cxyuf2fvnni",
+      "overworld": "VILLAGE",
+      "nether": "HOUSING",
+      "endTowers": [
+        91,
+        85,
+        79,
+        82
+      ],
+      "variations": [
+        "biome:structure:plains",
+        "biome:structure:plains",
+        "bastion:triple:2",
+        "biome:bastion:crimson_forest",
+        "biome:fortress:soul_sand_valley",
+        "end_tower:caged:back",
+        "end_tower:caged:back_center"
+      ]
+    }
+  },
+  {
+    "rank": 88,
+    "id": 2032400,
+    "season": 8,
+    "date": 1746121300,
+    "time": 408047,
+    "user": {
+      "uuid": "2fe70934e7be458dba747c4ac830391c",
+      "nickname": "nhb_",
+      "roleType": 2,
+      "eloRate": 1591,
+      "eloRank": 113,
+      "country": "cf"
+    },
+    "seed": {
+      "id": "m7232mhgc3jaj4qk",
+      "overworld": "RUINED_PORTAL",
+      "nether": "TREASURE",
+      "endTowers": [
+        85,
+        88,
+        103,
+        79
+      ],
+      "variations": [
+        "type:structure:lava",
+        "chest:structure:looting_sword",
+        "biome:structure:plains",
+        "type:structure:lava",
+        "chest:structure:looting_sword",
+        "biome:structure:plains",
+        "biome:bastion:crimson_forest",
+        "biome:fortress:crimson_forest",
+        "end_tower:caged:back_center"
+      ]
+    }
+  },
+  {
+    "rank": 89,
+    "id": 4656621,
+    "season": 10,
+    "date": 1767565073,
+    "time": 408296,
+    "user": {
+      "uuid": "9a8e24df4c8549d696a6951da84fa5c4",
+      "nickname": "Feinberg",
+      "roleType": 3,
+      "eloRate": 2100,
+      "eloRank": 2,
+      "country": "us"
+    },
+    "seed": {
+      "id": "m7232qeya1u3v5wz",
+      "overworld": "RUINED_PORTAL",
+      "nether": "HOUSING",
+      "endTowers": [
+        94,
+        79,
+        76,
+        97
+      ],
+      "variations": [
+        "type:structure:completable",
+        "biome:structure:beach",
+        "type:structure:completable",
+        "biome:structure:beach",
+        "bastion:triple:1",
+        "bastion:single:1",
+        "biome:bastion:soul_sand_valley",
+        "biome:fortress:basalt_deltas",
+        "end_spawn:buried:56",
+        "end_tower:caged:front_center"
+      ]
+    }
+  },
+  {
+    "rank": 90,
+    "id": 2159774,
+    "season": 8,
+    "date": 1747698159,
+    "time": 408380,
+    "user": {
+      "uuid": "048de51800794a208de7f01652513c32",
+      "nickname": "q3awreh4yu78i",
+      "roleType": 1,
+      "eloRate": 1572,
+      "eloRank": 136,
+      "country": "cw"
+    },
+    "seed": {
+      "id": "m723ed4jxtcbthoq",
+      "overworld": "RUINED_PORTAL",
+      "nether": "TREASURE",
+      "endTowers": [
+        94,
+        100,
+        103,
+        85
+      ],
+      "variations": [
+        "type:structure:lava",
+        "biome:structure:forest",
+        "type:structure:lava",
+        "biome:structure:forest",
+        "biome:bastion:nether_wastes",
+        "biome:fortress:nether_wastes"
+      ]
+    }
+  },
+  {
+    "rank": 91,
+    "id": 3917208,
+    "season": 9,
+    "date": 1764765721,
+    "time": 408481,
+    "user": {
+      "uuid": "553414a2c89b4d6b8c0ba5bd89284508",
+      "nickname": "ulsah1n",
+      "roleType": 0,
+      "eloRate": 1676,
+      "eloRank": 46,
+      "country": "tr"
+    },
+    "seed": {
+      "id": "m722w9kmxmmwl7qo",
+      "overworld": "RUINED_PORTAL",
+      "nether": "BRIDGE",
+      "endTowers": [
+        91,
+        85,
+        88,
+        100
+      ],
+      "variations": [
+        "type:structure:lava",
+        "chest:structure:looting_sword",
+        "biome:structure:beach",
+        "type:structure:lava",
+        "chest:structure:looting_sword",
+        "biome:structure:beach",
+        "bastion:triple:1",
+        "bastion:single:1",
+        "biome:bastion:nether_wastes",
+        "biome:fortress:crimson_forest",
+        "end_spawn:buried:56"
+      ]
+    }
+  },
+  {
+    "rank": 92,
+    "id": 1879682,
+    "season": 7,
+    "date": 1743400335,
+    "time": 409025,
+    "user": {
+      "uuid": "25349f93cf194f3baeee93d024eccc21",
+      "nickname": "retropog",
+      "roleType": 0,
+      "eloRate": 1655,
+      "eloRank": 55,
+      "country": "au"
+    },
+    "seed": {
+      "id": "m722xot7nt0lzdpc",
+      "overworld": "RUINED_PORTAL",
+      "nether": "BRIDGE",
+      "endTowers": [
+        91,
+        103,
+        94,
+        88
+      ],
+      "variations": [
+        "type:structure:completable",
+        "biome:structure:forest",
+        "type:structure:completable",
+        "biome:structure:forest",
+        "bastion:triple:1",
+        "bastion:single:1",
+        "biome:bastion:crimson_forest",
+        "biome:fortress:nether_wastes",
+        "end_spawn:buried:57"
+      ]
+    }
+  },
+  {
+    "rank": 93,
+    "id": 3422046,
+    "season": 9,
+    "date": 1761322850,
+    "time": 409061,
+    "user": {
+      "uuid": "cc432b2626a44ae1836a50244adbf468",
+      "nickname": "XSpocony_MaciekX",
+      "roleType": 1,
+      "eloRate": 1981,
+      "eloRank": 6,
+      "country": "pl"
+    },
+    "seed": {
+      "id": "m722x8r92facnd5n",
+      "overworld": "RUINED_PORTAL",
+      "nether": "TREASURE",
+      "endTowers": [
+        100,
+        82,
+        91,
+        88
+      ],
+      "variations": [
+        "type:structure:lava",
+        "chest:structure:golden_carrot",
+        "biome:structure:beach",
+        "type:structure:lava",
+        "chest:structure:golden_carrot",
+        "biome:structure:beach",
+        "biome:bastion:crimson_forest",
+        "biome:fortress:soul_sand_valley",
+        "end_spawn:buried:56",
+        "end_tower:caged:front_center"
+      ]
+    }
+  },
+  {
+    "rank": 94,
+    "id": 3178135,
+    "season": 9,
+    "date": 1759281183,
+    "time": 409160,
+    "user": {
+      "uuid": "a5d83ff042164ff1b862dedc118c1dae",
+      "nickname": "steez",
+      "roleType": 0,
+      "eloRate": 1873,
+      "eloRank": 11,
+      "country": "gb"
+    },
+    "seed": {
+      "id": "m722xtadgr62afgx",
+      "overworld": "BURIED_TREASURE",
+      "nether": "HOUSING",
+      "endTowers": [
+        94,
+        88,
+        79,
+        91
+      ],
+      "variations": [
+        "biome:structure:deep_ocean",
+        "biome:structure:deep_ocean",
+        "bastion:triple:2",
+        "biome:bastion:nether_wastes",
+        "biome:fortress:nether_wastes",
+        "end_spawn:buried:57",
+        "end_tower:caged:back"
+      ]
+    }
+  },
+  {
+    "rank": 95,
+    "id": 2483724,
+    "season": 8,
+    "date": 1751831426,
+    "time": 409197,
+    "user": {
+      "uuid": "b5ae858c09384b79989ea305a4b5cedf",
+      "nickname": "Ayreliaa",
+      "roleType": 0,
+      "eloRate": null,
+      "eloRank": null,
+      "country": "ru"
+    },
+    "seed": {
+      "id": "m722ziax4rifxmjo",
+      "overworld": "RUINED_PORTAL",
+      "nether": "STABLES",
+      "endTowers": [
+        100,
+        97,
+        103,
+        85
+      ],
+      "variations": [
+        "type:structure:completable",
+        "biome:structure:beach",
+        "type:structure:completable",
+        "biome:structure:beach",
+        "bastion:good_gap:1",
+        "bastion:triple:1",
+        "bastion:single:1",
+        "bastion:small_single:1",
+        "biome:bastion:soul_sand_valley",
+        "biome:fortress:soul_sand_valley"
+      ]
+    }
+  },
+  {
+    "rank": 96,
+    "id": 4080503,
+    "season": 9,
+    "date": 1765604912,
+    "time": 409203,
+    "user": {
+      "uuid": "bdb7f407200d4882b78e656ca161bddf",
+      "nickname": "pjfqepojedfpo",
+      "roleType": 1,
+      "eloRate": 1600,
+      "eloRank": 103,
+      "country": "fk"
+    },
+    "seed": {
+      "id": "m722wsgcd972jodv",
+      "overworld": "RUINED_PORTAL",
+      "nether": "TREASURE",
+      "endTowers": [
+        94,
+        79,
+        91,
+        103
+      ],
+      "variations": [
+        "type:structure:lava",
+        "chest:structure:golden_carrot",
+        "biome:structure:forest",
+        "type:structure:lava",
+        "chest:structure:golden_carrot",
+        "biome:structure:forest",
+        "biome:bastion:nether_wastes",
+        "biome:fortress:crimson_forest",
+        "end_tower:caged:front_center"
+      ]
+    }
+  },
+  {
+    "rank": 97,
+    "id": 2845164,
+    "season": 9,
+    "date": 1756124847,
+    "time": 409586,
+    "user": {
+      "uuid": "9dcb17d831b24df2bae778cfd750ab1b",
+      "nickname": "loodlow",
+      "roleType": 0,
+      "eloRate": 1448,
+      "eloRank": 312,
+      "country": "ua"
+    },
+    "seed": {
+      "id": "m723a4qr1izj2ksw",
+      "overworld": "RUINED_PORTAL",
+      "nether": "HOUSING",
+      "endTowers": [
+        85,
+        82,
+        103,
+        76
+      ],
+      "variations": [
+        "type:structure:completable",
+        "biome:structure:plains",
+        "type:structure:completable",
+        "biome:structure:plains",
+        "bastion:triple:2",
+        "biome:bastion:crimson_forest",
+        "biome:fortress:warped_forest",
+        "end_tower:caged:front_center"
+      ]
+    }
+  },
+  {
+    "rank": 98,
+    "id": 3933988,
+    "season": 9,
+    "date": 1764864531,
+    "time": 409779,
+    "user": {
+      "uuid": "bdb7f407200d4882b78e656ca161bddf",
+      "nickname": "pjfqepojedfpo",
+      "roleType": 1,
+      "eloRate": 1600,
+      "eloRank": 103,
+      "country": "fk"
+    },
+    "seed": {
+      "id": "m722uacap03yl3mh",
+      "overworld": "BURIED_TREASURE",
+      "nether": "HOUSING",
+      "endTowers": [
+        88,
+        103,
+        97,
+        91
+      ],
+      "variations": [
+        "biome:structure:deep_ocean",
+        "biome:structure:deep_ocean",
+        "bastion:triple:1",
+        "bastion:single:1",
+        "biome:bastion:warped_forest",
+        "biome:fortress:warped_forest"
+      ]
+    }
+  },
+  {
+    "rank": 99,
+    "id": 4776866,
+    "season": 10,
+    "date": 1767851604,
+    "time": 410315,
+    "user": {
+      "uuid": "a54e3bc4c6354b07a236b81efbcfe791",
+      "nickname": "Infume",
+      "roleType": 2,
+      "eloRate": 2152,
+      "eloRank": 1,
+      "country": "us"
+    },
+    "seed": {
+      "id": "m7236ulk6n3vo1c5",
+      "overworld": "RUINED_PORTAL",
+      "nether": "HOUSING",
+      "endTowers": [
+        100,
+        91,
+        85,
+        103
+      ],
+      "variations": [
+        "type:structure:completable",
+        "biome:structure:forest",
+        "type:structure:completable",
+        "biome:structure:forest",
+        "bastion:triple:2",
+        "biome:bastion:nether_wastes",
+        "biome:fortress:nether_wastes"
+      ]
+    }
+  },
+  {
+    "rank": 100,
+    "id": 4220693,
+    "season": 9,
+    "date": 1766262335,
+    "time": 410386,
+    "user": {
+      "uuid": "0562802e736e47c581b2ef095e2ed067",
+      "nickname": "epik48",
+      "roleType": 1,
+      "eloRate": null,
+      "eloRank": null,
+      "country": "br"
+    },
+    "seed": {
+      "id": "m7238sdwq1j0odat",
+      "overworld": "RUINED_PORTAL",
+      "nether": "BRIDGE",
+      "endTowers": [
+        79,
+        94,
+        103,
+        85
+      ],
+      "variations": [
+        "type:structure:completable",
+        "biome:structure:forest",
+        "type:structure:completable",
+        "biome:structure:forest",
+        "bastion:triple:2",
+        "biome:bastion:warped_forest",
+        "biome:fortress:crimson_forest",
+        "end_tower:caged:front"
+      ]
+    }
+  }
+]
