@@ -14,10 +14,10 @@ __all__ = [
 class WeeklyRaceSeed(BaseModel):
     """Weekly race seed information."""
 
-    overworld: str | None = None
-    nether: str | None = None
-    the_end: str | None = Field(default=None, alias="theEnd")
-    rng: str | None = None
+    overworld: str | None = Field(default=None, description="Overworld seed")
+    nether: str | None = Field(default=None, description="Nether seed")
+    the_end: str | None = Field(default=None, alias="theEnd", description="End seed")
+    rng: str | None = Field(default=None, description="RNG seed")
 
     model_config = {"populate_by_name": True}
 
@@ -25,10 +25,12 @@ class WeeklyRaceSeed(BaseModel):
 class RaceLeaderboardEntry(BaseModel):
     """Entry in the weekly race leaderboard."""
 
-    rank: int
-    player: UserProfile
-    time: int
-    replay_exist: bool = Field(default=False, alias="replayExist")
+    rank: int = Field(description="Leaderboard rank")
+    player: UserProfile = Field(description="Player profile")
+    time: int = Field(description="Completion time in milliseconds")
+    replay_exist: bool = Field(
+        default=False, alias="replayExist", description="Whether replay is available"
+    )
 
     model_config = {"populate_by_name": True}
 
@@ -36,9 +38,11 @@ class RaceLeaderboardEntry(BaseModel):
 class WeeklyRace(BaseModel):
     """Weekly race data."""
 
-    id: int
-    seed: WeeklyRaceSeed
-    ends_at: int = Field(alias="endsAt")
-    leaderboard: list[RaceLeaderboardEntry] = Field(default_factory=list)
+    id: int = Field(description="Weekly race ID")
+    seed: WeeklyRaceSeed = Field(description="Race seed information")
+    ends_at: int = Field(alias="endsAt", description="Unix timestamp when race ends")
+    leaderboard: list[RaceLeaderboardEntry] = Field(
+        default_factory=list, description="Race leaderboard"
+    )
 
     model_config = {"populate_by_name": True}
