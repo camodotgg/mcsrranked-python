@@ -14,3 +14,13 @@ repos:
       - id: check-yaml
       - id: check-added-large-files
       - id: check-toml
+
+  - repo: https://github.com/pre-commit/mirrors-mypy
+    rev: v1.14.1
+    hooks:
+      - id: mypy
+        pass_filenames: false
+        additional_dependencies:
+          - pydantic>=2.0.0
+          - httpx>=0.27.0
+          - pytest>=8.0.0

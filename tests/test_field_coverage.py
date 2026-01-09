@@ -1,3 +1,6 @@
+# mypy: disable-error-code="no-untyped-def"
+"""Field coverage tests with isinstance() checks."""
+
 from mcsrranked.types.leaderboard import (
     EloLeaderboard,
     LeaderboardSeasonResult,
@@ -131,6 +134,7 @@ class TestUserFieldCoverage:
     def test_last_season_state_all_fields(self, user_fixture):
         """Verify all LastSeasonState fields."""
         user = User.model_validate(user_fixture)
+        assert user.season_result is not None
         last = user.season_result.last
 
         assert last.elo_rate is None or isinstance(last.elo_rate, int)
@@ -504,7 +508,7 @@ class TestVodInfoFieldCoverage:
     def test_vod_info_structure(self):
         """Test VodInfo can be constructed with all fields."""
         # VodInfo is rare in the fixtures, so test the model directly
-        vod = VodInfo(uuid="abc123", url="https://twitch.tv/example", startsAt=12345)
+        vod = VodInfo(uuid="abc123", url="https://twitch.tv/example", starts_at=12345)
 
         assert isinstance(vod.uuid, str)
         assert isinstance(vod.url, str)
@@ -530,7 +534,7 @@ class TestPhaseResultFieldCoverage:
     def test_phase_result_structure(self):
         """Test PhaseResult can be constructed with all fields."""
         # Phases are often empty, so test the model directly
-        phase = PhaseResult(phase=1, eloRate=1500, eloRank=100, point=50)
+        phase = PhaseResult(phase=1, elo_rate=1500, elo_rank=100, point=50)
 
         assert isinstance(phase.phase, int)
         assert isinstance(phase.elo_rate, int)
