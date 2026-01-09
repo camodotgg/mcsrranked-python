@@ -49,14 +49,19 @@ class MatchSeed(BaseModel):
     """Match seed information."""
 
     id: str | None = Field(default=None, description="Seed identifier")
-    overworld: str | None = Field(default=None, description="Overworld seed")
-    bastion: str | None = Field(default=None, description="Bastion type")
-    end_towers: list[int] = Field(
-        default_factory=list, alias="endTowers", description="End tower positions"
+    overworld: str | None = Field(default=None, description="Overworld structure type")
+    nether: str | None = Field(default=None, description="Bastion type")
+    end_towers: list[int] | None = Field(
+        default=None, alias="endTowers", description="End tower positions"
     )
     variations: list[str] = Field(default_factory=list, description="Seed variations")
 
     model_config = {"populate_by_name": True}
+
+    @property
+    def bastion(self) -> str | None:
+        """Alias for nether field (bastion type)."""
+        return self.nether
 
 
 class EloChange(BaseModel):
