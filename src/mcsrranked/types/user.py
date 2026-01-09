@@ -1,6 +1,6 @@
 from __future__ import annotations
 
-from pydantic import BaseModel, Field
+from pydantic import BaseModel, Field, model_validator
 
 from mcsrranked.types.shared import Achievement
 
@@ -48,6 +48,51 @@ class MatchTypeStats(BaseModel):
     model_config = {"populate_by_name": True}
 
 
+def _pivot_stats(data: dict) -> dict:
+    """Transform API format {stat: {mode: val}} to {mode: {stat: val}}.
+
+    The API returns statistics grouped by stat type first (e.g., wins.ranked),
+    but we want them grouped by mode first (e.g., ranked.wins) for easier access.
+    """
+    if not isinstance(data, dict):
+        return data
+
+    # If already in correct format (ranked/casual at top level with nested stats)
+    if "ranked" in data and isinstance(data.get("ranked"), dict):
+        ranked_val = data["ranked"]
+        # Check if it looks like MatchTypeStats (has wins/losses as direct int values)
+        if isinstance(ranked_val.get("wins"), int | None):
+            return data
+
+    # Pivot from {wins: {ranked: X, casual: Y}} to {ranked: {wins: X}, casual: {wins: Y}}
+    ranked: dict = {}
+    casual: dict = {}
+
+    field_mapping = {
+        # API key -> model field name
+        "wins": "wins",
+        "loses": "losses",  # Note: API uses 'loses' not 'losses'
+        "draws": "draws",
+        "forfeits": "forfeits",
+        "completions": "completions",
+        "playtime": "playtime",
+        "bestTime": "best_time",
+        "bestTimeId": "best_time_id",
+        "playedMatches": "played_matches",
+        "currentWinStreak": "current_winstreak",
+        "highestWinStreak": "highest_winstreak",
+    }
+
+    for api_key, model_key in field_mapping.items():
+        if api_key in data and isinstance(data[api_key], dict):
+            if data[api_key].get("ranked") is not None:
+                ranked[model_key] = data[api_key]["ranked"]
+            if data[api_key].get("casual") is not None:
+                casual[model_key] = data[api_key]["casual"]
+
+    return {"ranked": ranked, "casual": casual}
+
+
 class SeasonStats(BaseModel):
     """Season statistics container."""
 
@@ -59,6 +104,12 @@ class SeasonStats(BaseModel):
     )
 
     model_config = {"populate_by_name": True}
+
+    @model_validator(mode="before")
+    @classmethod
+    def pivot_stats(cls, data: dict) -> dict:
+        """Transform API stat-first format to mode-first format."""
+        return _pivot_stats(data)
 
 
 class TotalStats(BaseModel):
@@ -72,6 +123,12 @@ class TotalStats(BaseModel):
     )
 
     model_config = {"populate_by_name": True}
+
+    @model_validator(mode="before")
+    @classmethod
+    def pivot_stats(cls, data: dict) -> dict:
+        """Transform API stat-first format to mode-first format."""
+        return _pivot_stats(data)
 
 
 class UserStatistics(BaseModel):
@@ -235,8 +292,14 @@ class SeasonResultEntry(BaseModel):
     """Season result entry for user seasons endpoint."""
 
     last: LastSeasonState = Field(description="Final season state")
-    highest: int = Field(description="Highest elo rating of season")
-    lowest: int = Field(description="Lowest elo rating of season")
+    highest: int | float | None = Field(
+        default=None,
+        description="Highest elo rating of season. None if no ranked matches.",
+    )
+    lowest: int | float | None = Field(
+        default=None,
+        description="Lowest elo rating of season. None if no ranked matches.",
+    )
     phases: list[PhaseResult] = Field(
         default_factory=list, description="Phase results for the season"
     )
