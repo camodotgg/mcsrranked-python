@@ -1,0 +1,194 @@
+{
+  "uuid": "9a8e24df4c8549d696a6951da84fa5c4",
+  "nickname": "Feinberg",
+  "roleType": 3,
+  "eloRate": 2100,
+  "eloRank": 2,
+  "country": "us",
+  "seasonResults": {
+    "1": {
+      "last": {
+        "eloRate": 2309,
+        "eloRank": 1,
+        "phasePoint": 0
+      },
+      "highest": 2309,
+      "lowest": 1433,
+      "phases": []
+    },
+    "2": {
+      "last": {
+        "eloRate": 2070,
+        "eloRank": 2,
+        "phasePoint": 0
+      },
+      "highest": 2089,
+      "lowest": 1196,
+      "phases": []
+    },
+    "3": {
+      "last": {
+        "eloRate": 1544,
+        "eloRank": 110,
+        "phasePoint": 0
+      },
+      "highest": 1904,
+      "lowest": 1544,
+      "phases": []
+    },
+    "4": {
+      "last": {
+        "eloRate": null,
+        "eloRank": null,
+        "phasePoint": 0
+      },
+      "highest": null,
+      "lowest": null,
+      "phases": []
+    },
+    "6": {
+      "last": {
+        "eloRate": 2276,
+        "eloRank": 8,
+        "phasePoint": 125
+      },
+      "highest": 2291,
+      "lowest": 2276,
+      "phases": [
+        {
+          "phase": 2,
+          "eloRate": 2089,
+          "eloRank": 6,
+          "point": 30
+        },
+        {
+          "phase": 3,
+          "eloRate": 2248,
+          "eloRank": 4,
+          "point": 50
+        },
+        {
+          "phase": 4,
+          "eloRate": 2276,
+          "eloRank": 8,
+          "point": 45
+        }
+      ]
+    },
+    "7": {
+      "last": {
+        "eloRate": 2335,
+        "eloRank": 3,
+        "phasePoint": 170
+      },
+      "highest": 2335,
+      "lowest": 2123,
+      "phases": [
+        {
+          "phase": 1,
+          "eloRate": 1871,
+          "eloRank": 9,
+          "point": 20
+        },
+        {
+          "phase": 2,
+          "eloRate": 2047,
+          "eloRank": 5,
+          "point": 30
+        },
+        {
+          "phase": 3,
+          "eloRate": 2181,
+          "eloRank": 4,
+          "point": 50
+        },
+        {
+          "phase": 4,
+          "eloRate": 2335,
+          "eloRank": 3,
+          "point": 70
+        }
+      ]
+    },
+    "8": {
+      "last": {
+        "eloRate": 2223,
+        "eloRank": 11,
+        "phasePoint": 161
+      },
+      "highest": 2228,
+      "lowest": 1530,
+      "phases": [
+        {
+          "phase": 1,
+          "eloRate": 1935,
+          "eloRank": 7,
+          "point": 36
+        },
+        {
+          "phase": 2,
+          "eloRate": 2030,
+          "eloRank": 13,
+          "point": 31
+        },
+        {
+          "phase": 3,
+          "eloRate": 2087,
+          "eloRank": 14,
+          "point": 37
+        },
+        {
+          "phase": 4,
+          "eloRate": 2223,
+          "eloRank": 11,
+          "point": 57
+        }
+      ]
+    },
+    "9": {
+      "last": {
+        "eloRate": 2274,
+        "eloRank": 26,
+        "phasePoint": 185
+      },
+      "highest": 2618,
+      "lowest": 1670,
+      "phases": [
+        {
+          "phase": 1,
+          "eloRate": 2158,
+          "eloRank": 5,
+          "point": 40
+        },
+        {
+          "phase": 2,
+          "eloRate": 2327,
+          "eloRank": 4,
+          "point": 50
+        },
+        {
+          "phase": 3,
+          "eloRate": 2618,
+          "eloRank": 3,
+          "point": 67
+        },
+        {
+          "phase": 4,
+          "eloRate": 2274,
+          "eloRank": 26,
+          "point": 28
+        }
+      ]
+    },
+    "10": {
+      "last": {
+        "eloRate": 2100,
+        "eloRank": 2,
+        "phasePoint": 0
+      },
+      "highest": 2100,
+      "lowest": 1623,
+      "phases": []
+    }
+  }
+}

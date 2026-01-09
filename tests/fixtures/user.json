@@ -1,0 +1,361 @@
+{
+  "uuid": "9a8e24df4c8549d696a6951da84fa5c4",
+  "nickname": "Feinberg",
+  "roleType": 3,
+  "eloRate": 2100,
+  "eloRank": 2,
+  "achievements": {
+    "display": [
+      {
+        "id": "playoffsResult",
+        "date": 1744621721,
+        "data": [
+          "6"
+        ],
+        "level": 16,
+        "value": null,
+        "goal": null
+      },
+      {
+        "id": "seasonResult",
+        "date": 1679875227,
+        "data": [
+          "0",
+          "1"
+        ],
+        "level": 1,
+        "value": null,
+        "goal": null
+      },
+      {
+        "id": "oneshot",
+        "date": 1727818894,
+        "data": [],
+        "level": 1,
+        "value": null,
+        "goal": null
+      },
+      {
+        "id": "seasonResult",
+        "date": 1686787247,
+        "data": [
+          "1",
+          "1"
+        ],
+        "level": 1,
+        "value": null,
+        "goal": null
+      },
+      {
+        "id": "playoffsResult",
+        "date": 1746998386,
+        "data": [
+          "7"
+        ],
+        "level": 16,
+        "value": null,
+        "goal": null
+      }
+    ],
+    "total": [
+      {
+        "id": "seasonResult",
+        "date": 1767312115,
+        "data": [
+          "9",
+          "26"
+        ],
+        "level": 4,
+        "value": null,
+        "goal": null
+      },
+      {
+        "id": "bestTime",
+        "date": 1760404765,
+        "data": [],
+        "level": 11,
+        "value": 408296,
+        "goal": 359999
+      },
+      {
+        "id": "playedMatches",
+        "date": 1759463466,
+        "data": [],
+        "level": 10,
+        "value": 2684,
+        "goal": 5000
+      },
+      {
+        "id": "playoffsResult",
+        "date": 1757276382,
+        "data": [
+          "8"
+        ],
+        "level": 16,
+        "value": null,
+        "goal": null
+      },
+      {
+        "id": "seasonResult",
+        "date": 1755734804,
+        "data": [
+          "8",
+          "11"
+        ],
+        "level": 4,
+        "value": null,
+        "goal": null
+      },
+      {
+        "id": "wins",
+        "date": 1748330725,
+        "data": [],
+        "level": 9,
+        "value": 1730,
+        "goal": 2000
+      },
+      {
+        "id": "seasonResult",
+        "date": 1745193880,
+        "data": [
+          "7",
+          "3"
+        ],
+        "level": 2,
+        "value": null,
+        "goal": null
+      },
+      {
+        "id": "foodless",
+        "date": 1739004943,
+        "data": [],
+        "level": 1,
+        "value": null,
+        "goal": null
+      },
+      {
+        "id": "playtime",
+        "date": 1738910275,
+        "data": [],
+        "level": 7,
+        "value": 1571592937,
+        "goal": 1800000000
+      },
+      {
+        "id": "seasonResult",
+        "date": 1734741052,
+        "data": [
+          "6",
+          "8"
+        ],
+        "level": 3,
+        "value": null,
+        "goal": null
+      },
+      {
+        "id": "netherite",
+        "date": 1729634403,
+        "data": [],
+        "level": 1,
+        "value": null,
+        "goal": null
+      },
+      {
+        "id": "egapHolder",
+        "date": 1728343538,
+        "data": [],
+        "level": 1,
+        "value": null,
+        "goal": null
+      },
+      {
+        "id": "armorless",
+        "date": 1728339833,
+        "data": [],
+        "level": 1,
+        "value": null,
+        "goal": null
+      },
+      {
+        "id": "ironHoe",
+        "date": 1728286566,
+        "data": [],
+        "level": 1,
+        "value": null,
+        "goal": null
+      },
+      {
+        "id": "highLevel",
+        "date": 1728265183,
+        "data": [],
+        "level": 1,
+        "value": null,
+        "goal": null
+      },
+      {
+        "id": "classicRun",
+        "date": 1728168045,
+        "data": [],
+        "level": 1,
+        "value": null,
+        "goal": null
+      },
+      {
+        "id": "ironPickless",
+        "date": 1727822540,
+        "data": [],
+        "level": 1,
+        "value": null,
+        "goal": null
+      },
+      {
+        "id": "highestWinStreak",
+        "date": 1706847228,
+        "data": [],
+        "level": 8,
+        "value": 29,
+        "goal": null
+      },
+      {
+        "id": "seasonResult",
+        "date": 1704499267,
+        "data": [
+          "3",
+          "110"
+        ],
+        "level": 6,
+        "value": null,
+        "goal": null
+      },
+      {
+        "id": "seasonResult",
+        "date": 1695081661,
+        "data": [
+          "2",
+          "2"
+        ],
+        "level": 2,
+        "value": null,
+        "goal": null
+      }
+    ]
+  },
+  "timestamp": {
+    "firstOnline": 1676224745,
+    "lastOnline": 1767925759,
+    "lastRanked": 1767918741,
+    "nextDecay": 1768566741
+  },
+  "statistics": {
+    "season": {
+      "bestTime": {
+        "ranked": 408296,
+        "casual": null
+      },
+      "highestWinStreak": {
+        "ranked": 14,
+        "casual": 0
+      },
+      "currentWinStreak": {
+        "ranked": 14,
+        "casual": 0
+      },
+      "playedMatches": {
+        "ranked": 73,
+        "casual": 0
+      },
+      "playtime": {
+        "ranked": 39981188,
+        "casual": 0
+      },
+      "completionTime": {
+        "ranked": 28956710,
+        "casual": 0
+      },
+      "forfeits": {
+        "ranked": 0,
+        "casual": 0
+      },
+      "completions": {
+        "ranked": 52,
+        "casual": 0
+      },
+      "wins": {
+        "ranked": 57,
+        "casual": 0
+      },
+      "loses": {
+        "ranked": 15,
+        "casual": 0
+      }
+    },
+    "total": {
+      "bestTime": {
+        "ranked": 408296,
+        "casual": 552108
+      },
+      "highestWinStreak": {
+        "ranked": 29,
+        "casual": 2
+      },
+      "currentWinStreak": {
+        "ranked": 14,
+        "casual": 1
+      },
+      "playedMatches": {
+        "ranked": 2684,
+        "casual": 10
+      },
+      "playtime": {
+        "ranked": 1571592937,
+        "casual": 5149678
+      },
+      "forfeits": {
+        "ranked": 83,
+        "casual": 2
+      },
+      "completions": {
+        "ranked": 1410,
+        "casual": 5
+      },
+      "wins": {
+        "ranked": 1730,
+        "casual": 6
+      },
+      "loses": {
+        "ranked": 921,
+        "casual": 4
+      },
+      "completionTime": {
+        "ranked": 882778147,
+        "casual": 3483431
+      }
+    }
+  },
+  "connections": {
+    "discord": {
+      "id": "75707773723086848",
+      "name": "Feinberg#0001"
+    },
+    "youtube": {
+      "id": "UCAdKNsVKLW1xWNpy4eB_5AQ",
+      "name": "Feinberg"
+    },
+    "twitch": {
+      "id": "feinberg",
+      "name": "Feinberg"
+    }
+  },
+  "weeklyRaces": [],
+  "country": "us",
+  "seasonResult": {
+    "last": {
+      "eloRate": 2100,
+      "eloRank": 2,
+      "phasePoint": 0
+    },
+    "highest": 2100,
+    "lowest": 1623,
+    "phases": []
+  }
+}

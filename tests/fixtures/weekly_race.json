@@ -1,0 +1,663 @@
+{
+  "id": 67,
+  "seed": {
+    "overworld": "114826611375830332",
+    "nether": "114826611375830332",
+    "theEnd": "114826611375830332",
+    "rng": "114826611375830332",
+    "flags": null
+  },
+  "endsAt": 1768176000,
+  "leaderboard": [
+    {
+      "rank": 1,
+      "player": {
+        "uuid": "fe6771646c5d43c1b713023fb69c10c6",
+        "nickname": "SammmyG",
+        "roleType": 0,
+        "eloRate": 1690,
+        "eloRank": 39,
+        "country": "au"
+      },
+      "time": 215579,
+      "replayExist": true
+    },
+    {
+      "rank": 2,
+      "player": {
+        "uuid": "a20541925b5648e1ae88a141ca37911e",
+        "nickname": "xiamoys",
+        "roleType": 0,
+        "eloRate": null,
+        "eloRank": null,
+        "country": "cn"
+      },
+      "time": 216599,
+      "replayExist": true
+    },
+    {
+      "rank": 3,
+      "player": {
+        "uuid": "ff4c9a27aff84089b5d4b2b268c126fa",
+        "nickname": "Voitto1",
+        "roleType": 0,
+        "eloRate": 1252,
+        "eloRank": 1054,
+        "country": "fi"
+      },
+      "time": 245326,
+      "replayExist": true
+    },
+    {
+      "rank": 4,
+      "player": {
+        "uuid": "1c4ab40e861a4240b828f37e9a85c9d6",
+        "nickname": "nolettuceplz",
+        "roleType": 1,
+        "eloRate": 1388,
+        "eloRank": 475,
+        "country": "us"
+      },
+      "time": 286836,
+      "replayExist": true
+    },
+    {
+      "rank": 5,
+      "player": {
+        "uuid": "8c7208adf2784bacb3715ab657cd80bd",
+        "nickname": "BinEin",
+        "roleType": 1,
+        "eloRate": 1593,
+        "eloRank": 110,
+        "country": "pl"
+      },
+      "time": 294733,
+      "replayExist": true
+    },
+    {
+      "rank": 6,
+      "player": {
+        "uuid": "56a31fff7bee477d9c2f50e9351df00f",
+        "nickname": "BunchaStuff10",
+        "roleType": 0,
+        "eloRate": 1240,
+        "eloRank": 1124,
+        "country": null
+      },
+      "time": 302745,
+      "replayExist": true
+    },
+    {
+      "rank": 7,
+      "player": {
+        "uuid": "f20073faa56b4bce858786361b513b46",
+        "nickname": "beavery",
+        "roleType": 1,
+        "eloRate": 1462,
+        "eloRank": 284,
+        "country": "lv"
+      },
+      "time": 338304,
+      "replayExist": true
+    },
+    {
+      "rank": 8,
+      "player": {
+        "uuid": "04cd27316776491d93820565ba17b59c",
+        "nickname": "lucas2mason1",
+        "roleType": 0,
+        "eloRate": 1242,
+        "eloRank": 1108,
+        "country": "us"
+      },
+      "time": 345477,
+      "replayExist": true
+    },
+    {
+      "rank": 9,
+      "player": {
+        "uuid": "78d2310bb25a424ba285f6f25a1d541a",
+        "nickname": "IPlayTheTuba",
+        "roleType": 1,
+        "eloRate": 1159,
+        "eloRank": 1836,
+        "country": null
+      },
+      "time": 351223,
+      "replayExist": true
+    },
+    {
+      "rank": 10,
+      "player": {
+        "uuid": "cb51bbd142db44cc8282d37cdbfc4b70",
+        "nickname": "BedrockBaby42",
+        "roleType": 0,
+        "eloRate": 1364,
+        "eloRank": 538,
+        "country": "au"
+      },
+      "time": 359043,
+      "replayExist": true
+    },
+    {
+      "rank": 11,
+      "player": {
+        "uuid": "35028dddaaf54c1cbe6ed97679f3a3a4",
+        "nickname": "r4shi",
+        "roleType": 0,
+        "eloRate": 1179,
+        "eloRank": 1651,
+        "country": "au"
+      },
+      "time": 371280,
+      "replayExist": true
+    },
+    {
+      "rank": 12,
+      "player": {
+        "uuid": "e239efd76f4d47e19fc70609080d016b",
+        "nickname": "SpeZyy",
+        "roleType": 1,
+        "eloRate": 1381,
+        "eloRank": 489,
+        "country": "gb"
+      },
+      "time": 380423,
+      "replayExist": true
+    },
+    {
+      "rank": 13,
+      "player": {
+        "uuid": "47f8c678105c4190a3a6fc8799b54949",
+        "nickname": "KnowerMeh",
+        "roleType": 1,
+        "eloRate": 1225,
+        "eloRank": 1231,
+        "country": "id"
+      },
+      "time": 381148,
+      "replayExist": true
+    },
+    {
+      "rank": 14,
+      "player": {
+        "uuid": "1522945053ae4b48b7bce6b2e5f5701e",
+        "nickname": "mewfea",
+        "roleType": 0,
+        "eloRate": 1283,
+        "eloRank": 869,
+        "country": "is"
+      },
+      "time": 381724,
+      "replayExist": true
+    },
+    {
+      "rank": 15,
+      "player": {
+        "uuid": "38be701be7204f5287e84ca0427cc921",
+        "nickname": "Yeeholly",
+        "roleType": 0,
+        "eloRate": 1192,
+        "eloRank": 1561,
+        "country": "us"
+      },
+      "time": 389330,
+      "replayExist": true
+    },
+    {
+      "rank": 16,
+      "player": {
+        "uuid": "3900b06340364d379031628b32bed75f",
+        "nickname": "pawsomesnuggles",
+        "roleType": 1,
+        "eloRate": 1401,
+        "eloRank": 427,
+        "country": "us"
+      },
+      "time": 403101,
+      "replayExist": true
+    },
+    {
+      "rank": 17,
+      "player": {
+        "uuid": "9d9882de330d451ea601b464df0f5dbf",
+        "nickname": "Everbloom_",
+        "roleType": 0,
+        "eloRate": null,
+        "eloRank": null,
+        "country": null
+      },
+      "time": 412098,
+      "replayExist": true
+    },
+    {
+      "rank": 18,
+      "player": {
+        "uuid": "badc2d085dcd443fbe9757681ec46803",
+        "nickname": "LucasBort",
+        "roleType": 0,
+        "eloRate": 1089,
+        "eloRank": 2579,
+        "country": "br"
+      },
+      "time": 418111,
+      "replayExist": true
+    },
+    {
+      "rank": 19,
+      "player": {
+        "uuid": "0ed3dd0aafb44fc1b6c0efd7ecc2fd46",
+        "nickname": "guideee",
+        "roleType": 1,
+        "eloRate": 1417,
+        "eloRank": 382,
+        "country": "th"
+      },
+      "time": 423605,
+      "replayExist": true
+    },
+    {
+      "rank": 20,
+      "player": {
+        "uuid": "f30876ff9c6344de89e4c175d0fca078",
+        "nickname": "asuhosus",
+        "roleType": 1,
+        "eloRate": null,
+        "eloRank": null,
+        "country": null
+      },
+      "time": 428105,
+      "replayExist": true
+    },
+    {
+      "rank": 21,
+      "player": {
+        "uuid": "0e7749bfc9cf43f180586edea0bf611e",
+        "nickname": "Jos_13",
+        "roleType": 0,
+        "eloRate": 1343,
+        "eloRank": 604,
+        "country": "ca"
+      },
+      "time": 431056,
+      "replayExist": true
+    },
+    {
+      "rank": 22,
+      "player": {
+        "uuid": "f1e2dc89c4a3421f92babf15b4612809",
+        "nickname": "KochyFlake",
+        "roleType": 0,
+        "eloRate": 1096,
+        "eloRank": 2496,
+        "country": null
+      },
+      "time": 435686,
+      "replayExist": true
+    },
+    {
+      "rank": 23,
+      "player": {
+        "uuid": "c6d61aa112ab4c8c89d3c662cd3a08b4",
+        "nickname": "arranamus",
+        "roleType": 0,
+        "eloRate": null,
+        "eloRank": null,
+        "country": null
+      },
+      "time": 437121,
+      "replayExist": true
+    },
+    {
+      "rank": 24,
+      "player": {
+        "uuid": "fc12adac5fb646ee816e0efcc31bb3e7",
+        "nickname": "Iqy",
+        "roleType": 1,
+        "eloRate": 1069,
+        "eloRank": 2772,
+        "country": "gb"
+      },
+      "time": 445924,
+      "replayExist": true
+    },
+    {
+      "rank": 25,
+      "player": {
+        "uuid": "830dd45cc99143d08d4bc5434ccb6ffc",
+        "nickname": "ALEXEY_GRACH",
+        "roleType": 0,
+        "eloRate": 908,
+        "eloRank": 4463,
+        "country": "ru"
+      },
+      "time": 446050,
+      "replayExist": true
+    },
+    {
+      "rank": 26,
+      "player": {
+        "uuid": "fcf7f0c1f748422ab10f354354d5de42",
+        "nickname": "Redsippycup",
+        "roleType": 1,
+        "eloRate": 1033,
+        "eloRank": 3171,
+        "country": "us"
+      },
+      "time": 446429,
+      "replayExist": true
+    },
+    {
+      "rank": 27,
+      "player": {
+        "uuid": "209a5f8e64734af6b2318148cd1c3b98",
+        "nickname": "ImDtmined",
+        "roleType": 0,
+        "eloRate": 1069,
+        "eloRank": 2772,
+        "country": "pl"
+      },
+      "time": 449504,
+      "replayExist": true
+    },
+    {
+      "rank": 28,
+      "player": {
+        "uuid": "2b5a0c1f5a034004850de4587b402e9b",
+        "nickname": "linecow",
+        "roleType": 3,
+        "eloRate": 1103,
+        "eloRank": 2410,
+        "country": "kp"
+      },
+      "time": 458999,
+      "replayExist": true
+    },
+    {
+      "rank": 29,
+      "player": {
+        "uuid": "429f145802ce43648033264bc5888391",
+        "nickname": "Juknow",
+        "roleType": 0,
+        "eloRate": 1051,
+        "eloRank": 2975,
+        "country": "lk"
+      },
+      "time": 461107,
+      "replayExist": true
+    },
+    {
+      "rank": 30,
+      "player": {
+        "uuid": "b50d96ebcf7e43c19c52ccd1e80d6996",
+        "nickname": "Bobbi_s",
+        "roleType": 0,
+        "eloRate": 1121,
+        "eloRank": 2192,
+        "country": null
+      },
+      "time": 467975,
+      "replayExist": true
+    },
+    {
+      "rank": 31,
+      "player": {
+        "uuid": "cbbf967c0add420e9e2cbe511b3c92ba",
+        "nickname": "Cyan5616",
+        "roleType": 0,
+        "eloRate": 1029,
+        "eloRank": 3219,
+        "country": null
+      },
+      "time": 469236,
+      "replayExist": true
+    },
+    {
+      "rank": 32,
+      "player": {
+        "uuid": "1366dcb1d7cd4d978a95038a577c36da",
+        "nickname": "GlassTony",
+        "roleType": 0,
+        "eloRate": 781,
+        "eloRank": 5231,
+        "country": "ca"
+      },
+      "time": 470204,
+      "replayExist": true
+    },
+    {
+      "rank": 33,
+      "player": {
+        "uuid": "de355d2d5dd146f4b80ee0521cb52d4e",
+        "nickname": "ItzIndigo_",
+        "roleType": 0,
+        "eloRate": null,
+        "eloRank": null,
+        "country": null
+      },
+      "time": 474246,
+      "replayExist": true
+    },
+    {
+      "rank": 34,
+      "player": {
+        "uuid": "29aa2925fe17464a94b7728ec6085338",
+        "nickname": "Void__Rumble",
+        "roleType": 2,
+        "eloRate": null,
+        "eloRank": null,
+        "country": null
+      },
+      "time": 476954,
+      "replayExist": true
+    },
+    {
+      "rank": 35,
+      "player": {
+        "uuid": "cb7540486b984c77839111ff7fe79a8f",
+        "nickname": "NeoR_",
+        "roleType": 2,
+        "eloRate": null,
+        "eloRank": null,
+        "country": null
+      },
+      "time": 477962,
+      "replayExist": true
+    },
+    {
+      "rank": 36,
+      "player": {
+        "uuid": "d6d94ca6fa9447bab933d5914ad4d440",
+        "nickname": "KelmoTheElmet",
+        "roleType": 0,
+        "eloRate": null,
+        "eloRank": null,
+        "country": null
+      },
+      "time": 482686,
+      "replayExist": true
+    },
+    {
+      "rank": 37,
+      "player": {
+        "uuid": "23fcc96223a34c76acef58763b20b337",
+        "nickname": "TheCoolTortoise",
+        "roleType": 1,
+        "eloRate": 1138,
+        "eloRank": 2023,
+        "country": null
+      },
+      "time": 489796,
+      "replayExist": true
+    },
+    {
+      "rank": 38,
+      "player": {
+        "uuid": "b88e151a63c7458784d14aeed6dce1e2",
+        "nickname": "dqqu",
+        "roleType": 0,
+        "eloRate": null,
+        "eloRank": null,
+        "country": null
+      },
+      "time": 491984,
+      "replayExist": true
+    },
+    {
+      "rank": 39,
+      "player": {
+        "uuid": "78b55026bb9b4fe8aad7c99f6286181e",
+        "nickname": "Max_049",
+        "roleType": 0,
+        "eloRate": 794,
+        "eloRank": 5159,
+        "country": null
+      },
+      "time": 493149,
+      "replayExist": true
+    },
+    {
+      "rank": 40,
+      "player": {
+        "uuid": "9a845d2afa96496d9d3f5db9e32b19b2",
+        "nickname": "Nexilius",
+        "roleType": 0,
+        "eloRate": 1036,
+        "eloRank": 3138,
+        "country": null
+      },
+      "time": 494232,
+      "replayExist": true
+    },
+    {
+      "rank": 41,
+      "player": {
+        "uuid": "7c212ebab3b24a0ba346a80531386ee6",
+        "nickname": "hiitzhunter",
+        "roleType": 1,
+        "eloRate": null,
+        "eloRank": null,
+        "country": null
+      },
+      "time": 497454,
+      "replayExist": true
+    },
+    {
+      "rank": 42,
+      "player": {
+        "uuid": "427473e5ce9c43d9b5bf68efae42d3c3",
+        "nickname": "0ntro",
+        "roleType": 0,
+        "eloRate": null,
+        "eloRank": null,
+        "country": "cz"
+      },
+      "time": 497888,
+      "replayExist": true
+    },
+    {
+      "rank": 43,
+      "player": {
+        "uuid": "2392d73c759644808fe1409fe3b039bd",
+        "nickname": "Vaqrz",
+        "roleType": 0,
+        "eloRate": 1043,
+        "eloRank": 3059,
+        "country": null
+      },
+      "time": 500177,
+      "replayExist": true
+    },
+    {
+      "rank": 44,
+      "player": {
+        "uuid": "254f8e7f98024da1a1dcb9c3c2ab8423",
+        "nickname": "InfernalParrot",
+        "roleType": 0,
+        "eloRate": null,
+        "eloRank": null,
+        "country": null
+      },
+      "time": 504067,
+      "replayExist": true
+    },
+    {
+      "rank": 45,
+      "player": {
+        "uuid": "65b9a0a2066a4f18b68b936dbdb91a26",
+        "nickname": "Astro890",
+        "roleType": 0,
+        "eloRate": 875,
+        "eloRank": 4670,
+        "country": null
+      },
+      "time": 504519,
+      "replayExist": true
+    },
+    {
+      "rank": 46,
+      "player": {
+        "uuid": "abc036331dc94905b29fee9d8473d678",
+        "nickname": "LightsOut222",
+        "roleType": 0,
+        "eloRate": 1080,
+        "eloRank": 2677,
+        "country": "au"
+      },
+      "time": 519863,
+      "replayExist": true
+    },
+    {
+      "rank": 47,
+      "player": {
+        "uuid": "9bb32b8d243b474cbb4cb7985e41d614",
+        "nickname": "_lifeline",
+        "roleType": 0,
+        "eloRate": null,
+        "eloRank": null,
+        "country": null
+      },
+      "time": 520118,
+      "replayExist": true
+    },
+    {
+      "rank": 48,
+      "player": {
+        "uuid": "6f3f646ea92e4244aee8fafd7c0f13f8",
+        "nickname": "sa_Vy",
+        "roleType": 1,
+        "eloRate": 1194,
+        "eloRank": 1555,
+        "country": "au"
+      },
+      "time": 520588,
+      "replayExist": true
+    },
+    {
+      "rank": 49,
+      "player": {
+        "uuid": "4ebcd248bb234797ad97c67ee92dc106",
+        "nickname": "WhaleWaffles938",
+        "roleType": 0,
+        "eloRate": null,
+        "eloRank": null,
+        "country": "ca"
+      },
+      "time": 521477,
+      "replayExist": true
+    },
+    {
+      "rank": 50,
+      "player": {
+        "uuid": "fe971915997d4a54a287332177dd95b3",
+        "nickname": "JustBeyondGlue",
+        "roleType": 0,
+        "eloRate": 671,
+        "eloRank": 6286,
+        "country": "us"
+      },
+      "time": 523778,
+      "replayExist": true
+    }
+  ]
+}

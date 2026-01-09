@@ -1,0 +1,226 @@
+{
+  "id": 4816894,
+  "type": 2,
+  "seed": {
+    "id": "m723auzy73cgue8f",
+    "overworld": "SHIPWRECK",
+    "nether": "HOUSING",
+    "endTowers": [
+      97,
+      76,
+      79,
+      100
+    ],
+    "variations": [
+      "biome:structure:deep_ocean",
+      "type:structure:normal",
+      "biome:structure:deep_ocean",
+      "type:structure:normal",
+      "bastion:triple:2",
+      "biome:bastion:crimson_forest",
+      "biome:fortress:nether_wastes",
+      "end_spawn:buried:57",
+      "end_tower:caged:back"
+    ]
+  },
+  "category": "ANY",
+  "gameMode": "default",
+  "players": [
+    {
+      "uuid": "68ec42a99c3d4538afe574cc9d8e06b6",
+      "nickname": "Derapchu",
+      "roleType": 0,
+      "eloRate": 1143,
+      "eloRank": 2186,
+      "country": "au"
+    },
+    {
+      "uuid": "e42b35a5c3da46f080c460849845af40",
+      "nickname": "Astraliss_",
+      "roleType": 0,
+      "eloRate": 1124,
+      "eloRank": 1958,
+      "country": null
+    }
+  ],
+  "spectators": [],
+  "result": {
+    "uuid": "68ec42a99c3d4538afe574cc9d8e06b6",
+    "time": 328933
+  },
+  "forfeited": true,
+  "decayed": false,
+  "rank": {
+    "season": null,
+    "allTime": null
+  },
+  "vod": [],
+  "changes": [
+    {
+      "uuid": "68ec42a99c3d4538afe574cc9d8e06b6",
+      "change": 21,
+      "eloRate": 1122
+    },
+    {
+      "uuid": "e42b35a5c3da46f080c460849845af40",
+      "change": -21,
+      "eloRate": 1145
+    }
+  ],
+  "completions": [],
+  "timelines": [
+    {
+      "uuid": "e42b35a5c3da46f080c460849845af40",
+      "time": 328933,
+      "type": "projectelo.timeline.forfeit"
+    },
+    {
+      "uuid": "68ec42a99c3d4538afe574cc9d8e06b6",
+      "time": 317982,
+      "type": "husbandry.root"
+    },
+    {
+      "uuid": "68ec42a99c3d4538afe574cc9d8e06b6",
+      "time": 315424,
+      "type": "story.obtain_armor"
+    },
+    {
+      "uuid": "68ec42a99c3d4538afe574cc9d8e06b6",
+      "time": 312633,
+      "type": "nether.obtain_crying_obsidian"
+    },
+    {
+      "uuid": "e42b35a5c3da46f080c460849845af40",
+      "time": 309910,
+      "type": "projectelo.timeline.death"
+    },
+    {
+      "uuid": "e42b35a5c3da46f080c460849845af40",
+      "time": 309846,
+      "type": "adventure.root"
+    },
+    {
+      "uuid": "e42b35a5c3da46f080c460849845af40",
+      "time": 259598,
+      "type": "nether.distract_piglin"
+    },
+    {
+      "uuid": "e42b35a5c3da46f080c460849845af40",
+      "time": 255099,
+      "type": "story.form_obsidian"
+    },
+    {
+      "uuid": "e42b35a5c3da46f080c460849845af40",
+      "time": 250944,
+      "type": "nether.loot_bastion"
+    },
+    {
+      "uuid": "e42b35a5c3da46f080c460849845af40",
+      "time": 249052,
+      "type": "husbandry.root"
+    },
+    {
+      "uuid": "68ec42a99c3d4538afe574cc9d8e06b6",
+      "time": 245921,
+      "type": "nether.distract_piglin"
+    },
+    {
+      "uuid": "68ec42a99c3d4538afe574cc9d8e06b6",
+      "time": 233216,
+      "type": "story.form_obsidian"
+    },
+    {
+      "uuid": "e42b35a5c3da46f080c460849845af40",
+      "time": 233114,
+      "type": "nether.find_bastion"
+    },
+    {
+      "uuid": "68ec42a99c3d4538afe574cc9d8e06b6",
+      "time": 229293,
+      "type": "nether.loot_bastion"
+    },
+    {
+      "uuid": "68ec42a99c3d4538afe574cc9d8e06b6",
+      "time": 206614,
+      "type": "nether.find_bastion"
+    },
+    {
+      "uuid": "e42b35a5c3da46f080c460849845af40",
+      "time": 160478,
+      "type": "story.enter_the_nether"
+    },
+    {
+      "uuid": "e42b35a5c3da46f080c460849845af40",
+      "time": 160269,
+      "type": "nether.root"
+    },
+    {
+      "uuid": "68ec42a99c3d4538afe574cc9d8e06b6",
+      "time": 149922,
+      "type": "nether.root"
+    },
+    {
+      "uuid": "68ec42a99c3d4538afe574cc9d8e06b6",
+      "time": 149914,
+      "type": "story.enter_the_nether"
+    },
+    {
+      "uuid": "e42b35a5c3da46f080c460849845af40",
+      "time": 145596,
+      "type": "story.lava_bucket"
+    },
+    {
+      "uuid": "68ec42a99c3d4538afe574cc9d8e06b6",
+      "time": 137758,
+      "type": "story.lava_bucket"
+    },
+    {
+      "uuid": "e42b35a5c3da46f080c460849845af40",
+      "time": 83698,
+      "type": "story.mine_stone"
+    },
+    {
+      "uuid": "68ec42a99c3d4538afe574cc9d8e06b6",
+      "time": 67706,
+      "type": "story.mine_stone"
+    },
+    {
+      "uuid": "e42b35a5c3da46f080c460849845af40",
+      "time": 63892,
+      "type": "story.iron_tools"
+    },
+    {
+      "uuid": "e42b35a5c3da46f080c460849845af40",
+      "time": 54208,
+      "type": "story.root"
+    },
+    {
+      "uuid": "68ec42a99c3d4538afe574cc9d8e06b6",
+      "time": 48463,
+      "type": "story.iron_tools"
+    },
+    {
+      "uuid": "68ec42a99c3d4538afe574cc9d8e06b6",
+      "time": 39118,
+      "type": "story.root"
+    },
+    {
+      "uuid": "e42b35a5c3da46f080c460849845af40",
+      "time": 29474,
+      "type": "story.smelt_iron"
+    },
+    {
+      "uuid": "68ec42a99c3d4538afe574cc9d8e06b6",
+      "time": 16656,
+      "type": "story.smelt_iron"
+    }
+  ],
+  "beginner": false,
+  "botSource": null,
+  "season": 10,
+  "date": 1767945386,
+  "seedType": "SHIPWRECK",
+  "bastionType": "HOUSING",
+  "tag": null,
+  "replayExist": false
+}

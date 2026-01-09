@@ -1,0 +1,432 @@
+[
+  {
+    "id": 4804805,
+    "type": 2,
+    "seed": {
+      "id": "m7230aq00bzidp16",
+      "overworld": "BURIED_TREASURE",
+      "nether": "BRIDGE",
+      "endTowers": [
+        79,
+        76,
+        103,
+        100
+      ],
+      "variations": [
+        "biome:structure:deep_ocean",
+        "biome:structure:deep_ocean",
+        "bastion:triple:1",
+        "bastion:single:1",
+        "biome:bastion:crimson_forest",
+        "biome:fortress:crimson_forest",
+        "end_tower:caged:front"
+      ]
+    },
+    "category": "ANY",
+    "gameMode": "default",
+    "players": [
+      {
+        "uuid": "388533d5a2ad4b349a31db4738670a4b",
+        "nickname": "v_strid",
+        "roleType": 1,
+        "eloRate": 1798,
+        "eloRank": 17,
+        "country": "se"
+      },
+      {
+        "uuid": "9a8e24df4c8549d696a6951da84fa5c4",
+        "nickname": "Feinberg",
+        "roleType": 3,
+        "eloRate": 2100,
+        "eloRank": 2,
+        "country": "us"
+      }
+    ],
+    "spectators": [],
+    "result": {
+      "uuid": "9a8e24df4c8549d696a6951da84fa5c4",
+      "time": 498797
+    },
+    "forfeited": false,
+    "decayed": false,
+    "rank": {
+      "season": 379,
+      "allTime": null
+    },
+    "vod": [
+      {
+        "uuid": "388533d5a2ad4b349a31db4738670a4b",
+        "url": "https://www.twitch.tv/videos/2664727408",
+        "startsAt": 1767907679
+      },
+      {
+        "uuid": "9a8e24df4c8549d696a6951da84fa5c4",
+        "url": "https://www.twitch.tv/videos/2664787828",
+        "startsAt": 1767912697
+      }
+    ],
+    "changes": [
+      {
+        "uuid": "9a8e24df4c8549d696a6951da84fa5c4",
+        "change": 10,
+        "eloRate": 2090
+      },
+      {
+        "uuid": "388533d5a2ad4b349a31db4738670a4b",
+        "change": -10,
+        "eloRate": 1779
+      }
+    ],
+    "beginner": false,
+    "botSource": null,
+    "season": 10,
+    "date": 1767918741,
+    "seedType": "BURIED_TREASURE",
+    "bastionType": "BRIDGE",
+    "tag": null
+  },
+  {
+    "id": 4804022,
+    "type": 2,
+    "seed": {
+      "id": "m722tlempyzg2r64",
+      "overworld": "RUINED_PORTAL",
+      "nether": "HOUSING",
+      "endTowers": [
+        76,
+        91,
+        97,
+        85
+      ],
+      "variations": [
+        "type:structure:completable",
+        "chest:structure:looting_sword",
+        "biome:structure:river",
+        "type:structure:completable",
+        "chest:structure:looting_sword",
+        "biome:structure:river",
+        "bastion:triple:1",
+        "biome:bastion:nether_wastes",
+        "biome:fortress:basalt_deltas"
+      ]
+    },
+    "category": "ANY",
+    "gameMode": "default",
+    "players": [
+      {
+        "uuid": "9a8e24df4c8549d696a6951da84fa5c4",
+        "nickname": "Feinberg",
+        "roleType": 3,
+        "eloRate": 2100,
+        "eloRank": 2,
+        "country": "us"
+      },
+      {
+        "uuid": "ba31689fe7d24431bf7997a52efcc21c",
+        "nickname": "meebie",
+        "roleType": 1,
+        "eloRate": 1852,
+        "eloRank": 12,
+        "country": "cf"
+      }
+    ],
+    "spectators": [],
+    "result": {
+      "uuid": "9a8e24df4c8549d696a6951da84fa5c4",
+      "time": 480101
+    },
+    "forfeited": false,
+    "decayed": false,
+    "rank": {
+      "season": 209,
+      "allTime": null
+    },
+    "vod": [
+      {
+        "uuid": "9a8e24df4c8549d696a6951da84fa5c4",
+        "url": "https://www.twitch.tv/videos/2664787828",
+        "startsAt": 1767912697
+      }
+    ],
+    "changes": [
+      {
+        "uuid": "9a8e24df4c8549d696a6951da84fa5c4",
+        "change": 10,
+        "eloRate": 2080
+      },
+      {
+        "uuid": "ba31689fe7d24431bf7997a52efcc21c",
+        "change": -10,
+        "eloRate": 1777
+      }
+    ],
+    "beginner": false,
+    "botSource": null,
+    "season": 10,
+    "date": 1767917201,
+    "seedType": "RUINED_PORTAL",
+    "bastionType": "HOUSING",
+    "tag": null
+  },
+  {
+    "id": 4803643,
+    "type": 2,
+    "seed": {
+      "id": "m7236qrjg674ysxc",
+      "overworld": "SHIPWRECK",
+      "nether": "BRIDGE",
+      "endTowers": [
+        76,
+        88,
+        97,
+        79
+      ],
+      "variations": [
+        "biome:structure:deep_ocean",
+        "type:structure:sideways",
+        "biome:structure:deep_ocean",
+        "type:structure:sideways",
+        "bastion:triple:1",
+        "bastion:single:1",
+        "biome:bastion:nether_wastes",
+        "biome:fortress:nether_wastes",
+        "end_spawn:buried:56",
+        "end_tower:caged:back_center"
+      ]
+    },
+    "category": "ANY",
+    "gameMode": "default",
+    "players": [
+      {
+        "uuid": "388533d5a2ad4b349a31db4738670a4b",
+        "nickname": "v_strid",
+        "roleType": 1,
+        "eloRate": 1798,
+        "eloRank": 17,
+        "country": "se"
+      },
+      {
+        "uuid": "9a8e24df4c8549d696a6951da84fa5c4",
+        "nickname": "Feinberg",
+        "roleType": 3,
+        "eloRate": 2100,
+        "eloRank": 2,
+        "country": "us"
+      }
+    ],
+    "spectators": [],
+    "result": {
+      "uuid": "9a8e24df4c8549d696a6951da84fa5c4",
+      "time": 288140
+    },
+    "forfeited": true,
+    "decayed": false,
+    "rank": {
+      "season": null,
+      "allTime": null
+    },
+    "vod": [
+      {
+        "uuid": "388533d5a2ad4b349a31db4738670a4b",
+        "url": "https://www.twitch.tv/videos/2664727408",
+        "startsAt": 1767907679
+      },
+      {
+        "uuid": "9a8e24df4c8549d696a6951da84fa5c4",
+        "url": "https://www.twitch.tv/videos/2664787828",
+        "startsAt": 1767912697
+      }
+    ],
+    "changes": [
+      {
+        "uuid": "9a8e24df4c8549d696a6951da84fa5c4",
+        "change": 11,
+        "eloRate": 2069
+      },
+      {
+        "uuid": "388533d5a2ad4b349a31db4738670a4b",
+        "change": -11,
+        "eloRate": 1795
+      }
+    ],
+    "beginner": false,
+    "botSource": null,
+    "season": 10,
+    "date": 1767916453,
+    "seedType": "SHIPWRECK",
+    "bastionType": "BRIDGE",
+    "tag": null
+  },
+  {
+    "id": 4803385,
+    "type": 2,
+    "seed": {
+      "id": "m723cdvuzvypjayv",
+      "overworld": "RUINED_PORTAL",
+      "nether": "BRIDGE",
+      "endTowers": [
+        97,
+        94,
+        88,
+        100
+      ],
+      "variations": [
+        "type:structure:lava",
+        "biome:structure:plains",
+        "type:structure:lava",
+        "biome:structure:plains",
+        "bastion:triple:1",
+        "bastion:single:1",
+        "biome:bastion:soul_sand_valley",
+        "biome:fortress:soul_sand_valley"
+      ]
+    },
+    "category": "ANY",
+    "gameMode": "default",
+    "players": [
+      {
+        "uuid": "ba31689fe7d24431bf7997a52efcc21c",
+        "nickname": "meebie",
+        "roleType": 1,
+        "eloRate": 1852,
+        "eloRank": 12,
+        "country": "cf"
+      },
+      {
+        "uuid": "9a8e24df4c8549d696a6951da84fa5c4",
+        "nickname": "Feinberg",
+        "roleType": 3,
+        "eloRate": 2100,
+        "eloRank": 2,
+        "country": "us"
+      }
+    ],
+    "spectators": [],
+    "result": {
+      "uuid": "9a8e24df4c8549d696a6951da84fa5c4",
+      "time": 561119
+    },
+    "forfeited": false,
+    "decayed": false,
+    "rank": {
+      "season": null,
+      "allTime": null
+    },
+    "vod": [
+      {
+        "uuid": "9a8e24df4c8549d696a6951da84fa5c4",
+        "url": "https://www.twitch.tv/videos/2664787828",
+        "startsAt": 1767912697
+      }
+    ],
+    "changes": [
+      {
+        "uuid": "9a8e24df4c8549d696a6951da84fa5c4",
+        "change": 10,
+        "eloRate": 2059
+      },
+      {
+        "uuid": "ba31689fe7d24431bf7997a52efcc21c",
+        "change": -10,
+        "eloRate": 1772
+      }
+    ],
+    "beginner": false,
+    "botSource": null,
+    "season": 10,
+    "date": 1767915976,
+    "seedType": "RUINED_PORTAL",
+    "bastionType": "BRIDGE",
+    "tag": null
+  },
+  {
+    "id": 4802733,
+    "type": 2,
+    "seed": {
+      "id": "m722vk9l5wuvuaz9",
+      "overworld": "RUINED_PORTAL",
+      "nether": "BRIDGE",
+      "endTowers": [
+        97,
+        76,
+        79,
+        91
+      ],
+      "variations": [
+        "type:structure:completable",
+        "chest:structure:egap",
+        "biome:structure:beach",
+        "type:structure:completable",
+        "chest:structure:egap",
+        "biome:structure:beach",
+        "bastion:triple:2",
+        "biome:bastion:soul_sand_valley",
+        "biome:fortress:nether_wastes",
+        "end_spawn:buried:57",
+        "end_tower:caged:back"
+      ]
+    },
+    "category": "ANY",
+    "gameMode": "default",
+    "players": [
+      {
+        "uuid": "388533d5a2ad4b349a31db4738670a4b",
+        "nickname": "v_strid",
+        "roleType": 1,
+        "eloRate": 1798,
+        "eloRank": 17,
+        "country": "se"
+      },
+      {
+        "uuid": "9a8e24df4c8549d696a6951da84fa5c4",
+        "nickname": "Feinberg",
+        "roleType": 3,
+        "eloRate": 2100,
+        "eloRank": 2,
+        "country": "us"
+      }
+    ],
+    "spectators": [],
+    "result": {
+      "uuid": "9a8e24df4c8549d696a6951da84fa5c4",
+      "time": 501790
+    },
+    "forfeited": false,
+    "decayed": false,
+    "rank": {
+      "season": 421,
+      "allTime": null
+    },
+    "vod": [
+      {
+        "uuid": "388533d5a2ad4b349a31db4738670a4b",
+        "url": "https://www.twitch.tv/videos/2664727408",
+        "startsAt": 1767907679
+      },
+      {
+        "uuid": "9a8e24df4c8549d696a6951da84fa5c4",
+        "url": "https://www.twitch.tv/videos/2664787828",
+        "startsAt": 1767912697
+      }
+    ],
+    "changes": [
+      {
+        "uuid": "9a8e24df4c8549d696a6951da84fa5c4",
+        "change": 12,
+        "eloRate": 2047
+      },
+      {
+        "uuid": "388533d5a2ad4b349a31db4738670a4b",
+        "change": -12,
+        "eloRate": 1814
+      }
+    ],
+    "beginner": false,
+    "botSource": null,
+    "season": 10,
+    "date": 1767914679,
+    "seedType": "RUINED_PORTAL",
+    "bastionType": "BRIDGE",
+    "tag": null
+  }
+]
