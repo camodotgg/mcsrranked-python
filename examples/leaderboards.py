@@ -25,9 +25,9 @@ print("=== Phase Points Leaderboard ===")
 phase_lb = mcsrranked.leaderboards.phase()
 if phase_lb.phase.number:
     print(f"Phase {phase_lb.phase.number}")
-for player in phase_lb.users[:5]:
-    points = player.season_result.phase_point
-    print(f"{player.nickname}: {points} points")
+for phase_player in phase_lb.users[:5]:
+    points = phase_player.season_result.phase_point
+    print(f"{phase_player.nickname}: {points} points")
 print()
 
 # Record leaderboard (best times)

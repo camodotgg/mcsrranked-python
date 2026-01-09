@@ -54,8 +54,8 @@ print()
 
 print("Elo Changes:")
 for change in match.changes:
-    player = next((p for p in match.players if p.uuid == change.uuid), None)
-    name = player.nickname if player else change.uuid
+    found_player = next((p for p in match.players if p.uuid == change.uuid), None)
+    name = found_player.nickname if found_player else change.uuid
     change_str = (
         f"+{change.change}"
         if change.change and change.change > 0
@@ -67,6 +67,6 @@ print()
 if match.timelines:
     print("Timeline:")
     for event in match.timelines[:10]:
-        player = next((p for p in match.players if p.uuid == event.uuid), None)
-        name = player.nickname if player else event.uuid[:8]
+        found_player = next((p for p in match.players if p.uuid == event.uuid), None)
+        name = found_player.nickname if found_player else event.uuid[:8]
         print(f"  {format_time(event.time)} - {name}: {event.type}")

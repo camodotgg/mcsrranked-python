@@ -1,3 +1,6 @@
+# mypy: disable-error-code="no-untyped-def"
+"""Value assertion tests using real API fixtures."""
+
 from mcsrranked.types.leaderboard import EloLeaderboard, PhaseLeaderboard, RecordEntry
 from mcsrranked.types.live import LiveData
 from mcsrranked.types.match import MatchInfo, VersusStats
@@ -94,6 +97,7 @@ class TestUserParsing:
 
         # Verify one with value
         ach = achievements_with_values[0]
+        assert ach.value is not None
         assert ach.value > 0
 
     def test_user_connections(self, user_fixture):
@@ -191,6 +195,7 @@ class TestMatchParsing:
         assert match.seed.overworld == "SHIPWRECK"
         assert match.seed.nether == "HOUSING"  # This was previously broken
         assert match.seed.bastion == "HOUSING"  # Alias should work
+        assert match.seed.end_towers is not None
         assert len(match.seed.end_towers) == 4
         assert len(match.seed.variations) > 0
 
@@ -355,6 +360,7 @@ class TestRecordLeaderboardParsing:
         # Find a record with seed
         record_with_seed = next((r for r in records if r.seed is not None), None)
         if record_with_seed:
+            assert record_with_seed.seed is not None
             assert record_with_seed.seed.overworld is not None
             # end_towers can be None for some seeds
             if record_with_seed.seed.end_towers is not None:

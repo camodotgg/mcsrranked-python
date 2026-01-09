@@ -1,3 +1,6 @@
+# mypy: disable-error-code="no-untyped-def"
+"""Unit tests with synthetic data and edge cases."""
+
 import pytest
 
 from mcsrranked.types.shared import MatchSeed
@@ -133,7 +136,7 @@ class TestMatchSeedParsing:
 
     def test_null_end_towers(self):
         """Test parsing seed with null endTowers (occurs in record leaderboard)."""
-        api_data = {
+        api_data: dict[str, object] = {
             "id": "test",
             "overworld": "VILLAGE",
             "nether": "STABLES",

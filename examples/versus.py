@@ -30,8 +30,8 @@ ranked = stats.results.ranked
 total = ranked.get("total", 0)
 for uuid, wins in ranked.items():
     if uuid != "total":
-        player = next((p for p in stats.players if p.uuid == uuid), None)
-        name = player.nickname if player else uuid[:8]
+        found_player = next((p for p in stats.players if p.uuid == uuid), None)
+        name = found_player.nickname if found_player else uuid[:8]
         print(f"  {name}: {wins} wins")
 print(f"  Total matches: {total}")
 print()
@@ -42,8 +42,8 @@ casual = stats.results.casual
 total = casual.get("total", 0)
 for uuid, wins in casual.items():
     if uuid != "total":
-        player = next((p for p in stats.players if p.uuid == uuid), None)
-        name = player.nickname if player else uuid[:8]
+        found_player = next((p for p in stats.players if p.uuid == uuid), None)
+        name = found_player.nickname if found_player else uuid[:8]
         print(f"  {name}: {wins} wins")
 print(f"  Total matches: {total}")
 print()
@@ -51,8 +51,8 @@ print()
 # Display elo changes
 print("Total Elo Changes:")
 for uuid, change in stats.changes.items():
-    player = next((p for p in stats.players if p.uuid == uuid), None)
-    name = player.nickname if player else uuid[:8]
+    found_player = next((p for p in stats.players if p.uuid == uuid), None)
+    name = found_player.nickname if found_player else uuid[:8]
     sign = "+" if change > 0 else ""
     print(f"  {name}: {sign}{change}")
 print()

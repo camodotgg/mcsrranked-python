@@ -1,3 +1,4 @@
+# mypy: disable-error-code="no-untyped-def,misc"
 """Tests for the client module."""
 
 import httpx

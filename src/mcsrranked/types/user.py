@@ -1,5 +1,7 @@
 from __future__ import annotations
 
+from typing import Any
+
 from pydantic import BaseModel, Field, model_validator
 
 from mcsrranked.types.shared import Achievement
@@ -48,7 +50,7 @@ class MatchTypeStats(BaseModel):
     model_config = {"populate_by_name": True}
 
 
-def _pivot_stats(data: dict) -> dict:
+def _pivot_stats(data: dict[str, Any]) -> dict[str, Any]:
     """Transform API format {stat: {mode: val}} to {mode: {stat: val}}.
 
     The API returns statistics grouped by stat type first (e.g., wins.ranked),
@@ -65,8 +67,8 @@ def _pivot_stats(data: dict) -> dict:
             return data
 
     # Pivot from {wins: {ranked: X, casual: Y}} to {ranked: {wins: X}, casual: {wins: Y}}
-    ranked: dict = {}
-    casual: dict = {}
+    ranked: dict[str, Any] = {}
+    casual: dict[str, Any] = {}
 
     field_mapping = {
         # API key -> model field name
@@ -107,7 +109,7 @@ class SeasonStats(BaseModel):
 
     @model_validator(mode="before")
     @classmethod
-    def pivot_stats(cls, data: dict) -> dict:
+    def pivot_stats(cls, data: dict[str, Any]) -> dict[str, Any]:
         """Transform API stat-first format to mode-first format."""
         return _pivot_stats(data)
 
@@ -126,7 +128,7 @@ class TotalStats(BaseModel):
 
     @model_validator(mode="before")
     @classmethod
-    def pivot_stats(cls, data: dict) -> dict:
+    def pivot_stats(cls, data: dict[str, Any]) -> dict[str, Any]:
         """Transform API stat-first format to mode-first format."""
         return _pivot_stats(data)
 
