@@ -88,7 +88,7 @@
 
 ::: mcsrranked.types.live.LiveMatch
 
-::: mcsrranked.types.live.LiveMatchPlayer
+::: mcsrranked.types.live.LivePlayerData
 
 ::: mcsrranked.types.live.LivePlayerTimeline
 

@@ -44,7 +44,7 @@ from mcsrranked.types import (
     LeaderboardUser,
     LiveData,
     LiveMatch,
-    LiveMatchPlayer,
+    LivePlayerData,
     LivePlayerTimeline,
     MatchInfo,
     MatchRank,
@@ -141,7 +141,7 @@ __all__ = [
     # Models - live
     "LiveData",
     "LiveMatch",
-    "LiveMatchPlayer",
+    "LivePlayerData",
     "LivePlayerTimeline",
     "UserLiveMatch",
     # Models - weekly_race

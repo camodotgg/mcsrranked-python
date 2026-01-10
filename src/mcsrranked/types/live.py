@@ -8,7 +8,7 @@ from mcsrranked.types.shared import UserProfile
 __all__ = [
     "LiveData",
     "LiveMatch",
-    "LiveMatchPlayer",
+    "LivePlayerData",
     "LivePlayerTimeline",
     "UserLiveMatch",
 ]
@@ -50,16 +50,6 @@ class LiveMatch(BaseModel):
     )
     data: dict[str, LivePlayerData] = Field(
         default_factory=dict, description="Player data keyed by UUID"
-    )
-
-    model_config = {"populate_by_name": True}
-
-
-class LiveMatchPlayer(UserProfile):
-    """Player in a live match with stream data."""
-
-    live_url: str | None = Field(
-        default=None, alias="liveUrl", description="Live stream URL"
     )
 
     model_config = {"populate_by_name": True}

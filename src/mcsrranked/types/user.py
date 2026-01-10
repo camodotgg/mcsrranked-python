@@ -2,7 +2,7 @@ from __future__ import annotations
 
 from typing import Any
 
-from pydantic import BaseModel, Field, model_validator
+from pydantic import BaseModel, Field, computed_field, model_validator
 
 from mcsrranked.types.shared import Achievement
 
@@ -28,24 +28,30 @@ class MatchTypeStats(BaseModel):
     )
     wins: int = Field(default=0, description="Total wins")
     losses: int = Field(default=0, description="Total losses")
-    draws: int = Field(default=0, description="Total draws")
     forfeits: int = Field(default=0, description="Total forfeits")
     highest_winstreak: int = Field(
-        default=0, alias="highestWinstreak", description="Highest win streak achieved"
+        default=0, alias="highestWinStreak", description="Highest win streak achieved"
     )
     current_winstreak: int = Field(
-        default=0, alias="currentWinstreak", description="Current win streak"
+        default=0, alias="currentWinStreak", description="Current win streak"
     )
     playtime: int = Field(default=0, description="Total playtime in milliseconds")
+    completion_time: int = Field(
+        default=0,
+        alias="completionTime",
+        description="Total time spent on completions in milliseconds",
+    )
     best_time: int | None = Field(
         default=None,
         alias="bestTime",
         description="Best completion time in milliseconds",
     )
-    best_time_id: int | None = Field(
-        default=None, alias="bestTimeId", description="Match ID of best time"
-    )
     completions: int = Field(default=0, description="Total completions")
+
+    @computed_field(description="Total draws")  # type: ignore[prop-decorator]
+    @property
+    def draws(self) -> int:
+        return self.played_matches - self.wins - self.losses
 
     model_config = {"populate_by_name": True}
 
@@ -74,12 +80,11 @@ def _pivot_stats(data: dict[str, Any]) -> dict[str, Any]:
         # API key -> model field name
         "wins": "wins",
         "loses": "losses",  # Note: API uses 'loses' not 'losses'
-        "draws": "draws",
         "forfeits": "forfeits",
         "completions": "completions",
         "playtime": "playtime",
+        "completionTime": "completion_time",
         "bestTime": "best_time",
-        "bestTimeId": "best_time_id",
         "playedMatches": "played_matches",
         "currentWinStreak": "current_winstreak",
         "highestWinStreak": "highest_winstreak",
