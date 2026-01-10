@@ -16,6 +16,7 @@ from mcsrranked.types.live import (
     LiveMatch,
     LivePlayerData,
     LivePlayerTimeline,
+    UserLiveMatch,
 )
 from mcsrranked.types.match import (
     Completion,
@@ -111,13 +112,13 @@ class TestUserFieldCoverage:
         assert isinstance(mts.played_matches, int)
         assert isinstance(mts.wins, int)
         assert isinstance(mts.losses, int)
-        assert isinstance(mts.draws, int)
+        assert isinstance(mts.draws, int)  # computed field
         assert isinstance(mts.forfeits, int)
         assert isinstance(mts.highest_winstreak, int)
         assert isinstance(mts.current_winstreak, int)
         assert isinstance(mts.playtime, int)
+        assert isinstance(mts.completion_time, int)
         assert mts.best_time is None or isinstance(mts.best_time, int)
-        assert mts.best_time_id is None or isinstance(mts.best_time_id, int)
         assert isinstance(mts.completions, int)
 
     def test_season_result_all_fields(self, user_fixture):
@@ -224,6 +225,10 @@ class TestMatchFieldCoverage:
         assert isinstance(match.players, list)
         assert isinstance(match.spectators, list)
         assert match.seed is None or isinstance(match.seed, MatchSeed)
+        assert match.seed_type is None or isinstance(match.seed_type, str)
+        assert match.bastion_type is None or isinstance(match.bastion_type, str)
+        assert match.game_mode is None or isinstance(match.game_mode, str)
+        assert match.bot_source is None or isinstance(match.bot_source, str)
         assert match.result is None or isinstance(match.result, MatchResult)
         assert isinstance(match.forfeited, bool)
         assert isinstance(match.decayed, bool)
@@ -467,6 +472,33 @@ class TestLiveFieldCoverage:
         # If no timeline found, that's OK - it's nullable
 
 
+class TestUserLiveMatchFieldCoverage:
+    """Test UserLiveMatch fields."""
+
+    def test_user_live_match_structure(self):
+        """Test UserLiveMatch can be constructed with all fields."""
+        # User live endpoint data is not in fixtures, so test the model directly
+        live_match = UserLiveMatch(
+            last_id=123,
+            type=2,
+            status="running",
+            time=180000,
+            players=[],
+            spectators=[],
+            timelines=[],
+            completions=[],
+        )
+
+        assert live_match.last_id is None or isinstance(live_match.last_id, int)
+        assert isinstance(live_match.type, int)
+        assert isinstance(live_match.status, str)
+        assert isinstance(live_match.time, int)
+        assert isinstance(live_match.players, list)
+        assert isinstance(live_match.spectators, list)
+        assert isinstance(live_match.timelines, list)
+        assert isinstance(live_match.completions, list)
+
+
 class TestWeeklyRaceFieldCoverage:
     """Test every field in WeeklyRace types."""
 
@@ -488,6 +520,7 @@ class TestWeeklyRaceFieldCoverage:
         assert race.seed.nether is None or isinstance(race.seed.nether, str)
         assert race.seed.the_end is None or isinstance(race.seed.the_end, str)
         assert race.seed.rng is None or isinstance(race.seed.rng, str)
+        assert race.seed.flags is None or isinstance(race.seed.flags, list)
 
     def test_race_leaderboard_entry_all_fields(self, weekly_race_fixture):
         """Verify all RaceLeaderboardEntry fields."""

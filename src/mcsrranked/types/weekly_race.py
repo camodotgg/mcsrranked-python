@@ -18,6 +18,7 @@ class WeeklyRaceSeed(BaseModel):
     nether: str | None = Field(default=None, description="Nether seed")
     the_end: str | None = Field(default=None, alias="theEnd", description="End seed")
     rng: str | None = Field(default=None, description="RNG seed")
+    flags: list[str] | None = Field(default=None, description="Seed flags")
 
     model_config = {"populate_by_name": True}
 

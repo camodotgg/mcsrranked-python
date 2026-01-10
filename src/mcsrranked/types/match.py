@@ -69,6 +69,18 @@ class MatchInfo(BaseModel):
         default_factory=list, description="Match spectators"
     )
     seed: MatchSeed | None = Field(default=None, description="Seed information")
+    seed_type: str | None = Field(
+        default=None, alias="seedType", description="Seed type"
+    )
+    bastion_type: str | None = Field(
+        default=None, alias="bastionType", description="Bastion type"
+    )
+    game_mode: str | None = Field(
+        default=None, alias="gameMode", description="Game mode"
+    )
+    bot_source: str | None = Field(
+        default=None, alias="botSource", description="Bot source if applicable"
+    )
     result: MatchResult | None = Field(default=None, description="Match result")
     forfeited: bool = Field(
         default=False, description="Whether match had no completions"

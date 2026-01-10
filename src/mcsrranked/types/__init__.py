@@ -10,7 +10,7 @@ from mcsrranked.types.leaderboard import (
 from mcsrranked.types.live import (
     LiveData,
     LiveMatch,
-    LiveMatchPlayer,
+    LivePlayerData,
     LivePlayerTimeline,
     UserLiveMatch,
 )
@@ -85,7 +85,7 @@ __all__ = [
     # live
     "LiveData",
     "LiveMatch",
-    "LiveMatchPlayer",
+    "LivePlayerData",
     "LivePlayerTimeline",
     "UserLiveMatch",
     # weekly_race
